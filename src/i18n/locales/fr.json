@@ -1,0 +1,613 @@
+{
+  "nav": {
+    "services": "Services",
+    "projects": "Nos projets",
+    "about": "À propos",
+    "contact": "Contact",
+    "startProject": "Démarrer un projet",
+    "launching": "Lancement & MVP",
+    "launchingDesc": "Sites web, funnels, starter packs",
+    "branding": "Branding & image",
+    "brandingDesc": "Logos, identité visuelle, storytelling",
+    "automation": "Automatisation & IA",
+    "automationDesc": "Bots, agents IA, workflows",
+    "marketing": "Growth marketing & Ads",
+    "marketingDesc": "Campagnes, SEO/SEA, réputation",
+    "strategy": "Accompagnement stratégique",
+    "strategyDesc": "Positionnement, déploiement, pilotage",
+    "archilo": "Programme Archilo",
+    "archiloDesc": "Architecture digitale pour cabinets d'avocats"
+  },
+  "hero": {
+    "badge": "L'ère de l'IA est là. Êtes-vous prêt ?",
+    "title1": "L'agence qui transforme vos",
+    "title2": "idées",
+    "title3": "en",
+    "title4": "business",
+    "title5": "grâce à l'IA",
+    "description": "Stratégie, automatisation, branding et lancement. Nous accompagnons les entrepreneurs et PME à exploiter la puissance de l'intelligence artificielle pour croître plus vite, avec moins de ressources.",
+    "cta1": "Démarrer votre projet",
+    "cta2": "Découvrir notre approche IA",
+    "stats": {
+      "projects": "Projets lancés",
+      "countries": "Pays",
+      "hours": "Gagnées par semaine",
+      "efficiency": "Efficacité IA"
+    }
+  },
+  "services": {
+    "title": "Notre",
+    "titleHighlight": "savoir-faire",
+    "description": "Une expertise complète pour lancer, développer et automatiser votre activité à l'ère de l'IA.",
+    "automation": {
+      "title": "Automatisation & IA",
+      "description": "Agents IA, bots personnalisés, automatisation des workflows. Gagnez du temps et scalez sans effort."
+    },
+    "legal": {
+      "title": "Legal Tech",
+      "description": "Architecture digitale souveraine pour cabinets d'avocats. IA embarquée, données sécurisées sur site."
+    },
+    "medical": {
+      "title": "Optimisation Médicale",
+      "description": "Gestion de caisse automatisée, rapprochement CB/TPE, recouvrement intelligent pour praticiens."
+    },
+    "launching": {
+      "title": "Lancement rapide",
+      "description": "Votre MVP ou site prêt à vendre en 3 semaines. Du concept au marché, rapidement."
+    },
+    "branding": {
+      "title": "Branding & Identité",
+      "description": "Logo, univers visuel, positionnement. Créez une marque mémorable qui vous démarque."
+    },
+    "marketing": {
+      "title": "Growth Marketing",
+      "description": "Campagnes Ads optimisées, acquisition client, stratégies de croissance ROI+."
+    },
+    "strategy": {
+      "title": "Stratégie & Conseil",
+      "description": "Positionnement, modèle économique, roadmap. Structurez votre projet pour réussir."
+    },
+    "learnMore": "En savoir plus",
+    "viewAll": "Voir tous nos services",
+    "featuredBadge": "⚡ Expertise phare"
+  },
+  "about": {
+    "title": "Une agence",
+    "titleHighlight": "full-stack",
+    "titleEnd": "pour les entrepreneurs ambitieux",
+    "description1": "Dikio accompagne les créateurs, startups et PME dans leur transformation digitale. De la stratégie au déploiement, nous construisons des solutions sur mesure qui génèrent des résultats concrets.",
+    "description2": "Notre force ? Une expertise transversale qui allie créativité, technologie et intelligence artificielle pour vous faire gagner du temps et de l'argent.",
+    "learnMore": "En savoir plus sur Dikio",
+    "pillars": {
+      "expertise": {
+        "title": "Expertise pluridisciplinaire",
+        "description": "Web, design, marketing, IA : une équipe complète pour chaque projet."
+      },
+      "results": {
+        "title": "Orienté résultats",
+        "description": "Des objectifs mesurables, des actions concrètes, un ROI tracé."
+      },
+      "agility": {
+        "title": "Agilité & rapidité",
+        "description": "Itérations rapides, livraisons fréquentes, adaptation continue."
+      },
+      "innovation": {
+        "title": "Innovation constante",
+        "description": "Veille technologique permanente pour vous garder en avance."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Prêt à accélérer votre croissance ? Parlons de votre projet !",
+    "formTitle": "Envoyez-nous un message",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre email",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours...",
+    "findUs": "Comment nous trouver",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "success": {
+      "title": "Message envoyé avec succès!",
+      "description": "Nous vous répondrons dans les meilleurs délais."
+    },
+    "error": {
+      "title": "Erreur",
+      "validation": "Veuillez remplir tous les champs du formulaire.",
+      "submit": "Un problème est survenu lors de l'envoi du message. Veuillez réessayer plus tard."
+    }
+  },
+  "footer": {
+    "tagline": "L'agence de growth des inventeurs et créateurs ambitieux",
+    "services": "Nos services",
+    "navigation": "Navigation",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "french": "Français",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "cookies": {
+    "title": "Nous utilisons des cookies 🍪",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience, analyser le trafic et personnaliser le contenu. Vous pouvez accepter tous les cookies ou personnaliser vos préférences.",
+    "acceptAll": "Tout accepter",
+    "refuseAll": "Tout refuser",
+    "customize": "Personnaliser",
+    "learnMore": "En savoir plus dans notre",
+    "privacyPolicy": "Politique de confidentialité",
+    "close": "Fermer",
+    "settingsTitle": "Paramètres des cookies",
+    "necessary": {
+      "title": "Cookies nécessaires",
+      "description": "Essentiels au fonctionnement du site (session, préférences)"
+    },
+    "analytics": {
+      "title": "Cookies analytiques",
+      "description": "Nous aident à comprendre comment vous utilisez le site"
+    },
+    "marketing": {
+      "title": "Cookies marketing",
+      "description": "Permettent d'afficher des publicités personnalisées"
+    },
+    "savePreferences": "Enregistrer mes préférences"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "La présente politique de confidentialité décrit comment Dikio Studio collecte, utilise et protège vos données personnelles lorsque vous utilisez notre site web.",
+    "section1": {
+      "title": "1. Responsable du traitement",
+      "content": "Le responsable du traitement des données est Dikio Studio, dont le siège social est situé au 6 rue de Saint-Pétersbourg, 75008 Paris, France."
+    },
+    "section2": {
+      "title": "2. Données collectées",
+      "intro": "Nous pouvons collecter les données suivantes :",
+      "item1": "Données d'identification : nom, prénom, adresse email, numéro de téléphone",
+      "item2": "Données de connexion : adresse IP, type de navigateur, pages visitées",
+      "item3": "Données de formulaire : informations transmises via nos formulaires de contact ou de projet"
+    },
+    "section3": {
+      "title": "3. Finalités du traitement",
+      "intro": "Vos données sont collectées pour les finalités suivantes :",
+      "item1": "Répondre à vos demandes de contact ou de devis",
+      "item2": "Gérer la relation client et le suivi de vos projets",
+      "item3": "Améliorer nos services et l'expérience utilisateur",
+      "item4": "Envoyer des communications marketing (avec votre consentement)",
+      "item5": "Respecter nos obligations légales"
+    },
+    "section4": {
+      "title": "4. Base légale du traitement",
+      "intro": "Le traitement de vos données repose sur :",
+      "item1": "Votre consentement (formulaires, newsletters)",
+      "item2": "L'exécution d'un contrat (gestion de projet)",
+      "item3": "Notre intérêt légitime (amélioration des services)",
+      "item4": "Le respect d'obligations légales"
+    },
+    "section5": {
+      "title": "5. Destinataires des données",
+      "content": "Vos données personnelles sont destinées uniquement à Dikio Studio et ne sont jamais vendues à des tiers. Elles peuvent être partagées avec nos sous-traitants techniques (hébergement, outils d'analyse) dans le strict respect du RGPD."
+    },
+    "section6": {
+      "title": "6. Durée de conservation",
+      "intro": "Vos données sont conservées pendant la durée nécessaire aux finalités pour lesquelles elles ont été collectées :",
+      "item1": "Données clients : 5 ans après la fin de la relation commerciale",
+      "item2": "Données de prospection : 3 ans à compter du dernier contact",
+      "item3": "Cookies : 13 mois maximum"
+    },
+    "section7": {
+      "title": "7. Vos droits",
+      "intro": "Conformément au RGPD, vous disposez des droits suivants :",
+      "access": "Droit d'accès : obtenir la confirmation que vos données sont traitées et en demander une copie",
+      "rectification": "Droit de rectification : demander la correction de données inexactes",
+      "erasure": "Droit à l'effacement : demander la suppression de vos données",
+      "restriction": "Droit à la limitation : demander la suspension du traitement",
+      "portability": "Droit à la portabilité : recevoir vos données dans un format structuré",
+      "objection": "Droit d'opposition : vous opposer au traitement de vos données",
+      "contact": "Pour exercer ces droits, contactez-nous à :"
+    },
+    "section8": {
+      "title": "8. Cookies",
+      "content": "Notre site utilise des cookies pour améliorer votre expérience de navigation et analyser le trafic. Vous pouvez gérer vos préférences de cookies via les paramètres de votre navigateur ou notre bandeau de consentement."
+    },
+    "section9": {
+      "title": "9. Sécurité",
+      "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre tout accès non autorisé, modification, divulgation ou destruction."
+    },
+    "section10": {
+      "title": "10. Modifications",
+      "content": "Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera publiée sur cette page avec une date de mise à jour."
+    },
+    "section11": {
+      "title": "11. Contact et réclamation",
+      "content": "Pour toute question relative à cette politique ou à vos données personnelles, contactez-nous à :",
+      "cnil": "Vous avez également le droit d'introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés) :"
+    },
+    "lastUpdate": "Dernière mise à jour : Janvier 2026"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "editor": {
+      "title": "Éditeur du site",
+      "intro": "Le présent site est édité par la société Dikio Studio, société de services spécialisée en growth marketing.",
+      "company": "Raison sociale :",
+      "form": "Forme juridique :",
+      "formValue": "(à préciser, ex. SAS, SARL, auto-entrepreneur)",
+      "address": "Siège social :",
+      "email": "Email :",
+      "phone": "Téléphone :",
+      "siret": "Numéro SIRET :",
+      "rcs": "RCS :",
+      "director": "Directeur de la publication :",
+      "toComplete": "(à compléter)"
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "intro": "Le site est hébergé par :"
+    },
+    "intellectual": {
+      "title": "Propriété intellectuelle",
+      "content": "L'ensemble des contenus présents sur le site (textes, images, graphismes, logo, etc.) est la propriété exclusive de Dikio Studio, sauf mentions contraires. Toute reproduction, distribution ou utilisation sans autorisation préalable est interdite."
+    },
+    "responsibility": {
+      "title": "Responsabilité",
+      "content": "Dikio Studio s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur le site. Toutefois, elle ne saurait être tenue pour responsable des erreurs ou omissions. L'utilisateur reste responsable de l'utilisation qu'il fait des informations disponibles."
+    },
+    "personalData": {
+      "title": "Données personnelles",
+      "content": "Les données personnelles collectées via le site sont uniquement destinées à un usage interne par Dikio Studio. Elles ne seront ni vendues ni transmises à des tiers sans consentement.",
+      "gdpr": "Conformément à la loi \"Informatique et Libertés\" et au RGPD, vous disposez d'un droit d'accès, de rectification, et de suppression de vos données personnelles. Pour l'exercer, contactez-nous à l'adresse suivante :"
+    },
+    "cookiesSection": {
+      "title": "Cookies",
+      "content": "Le site peut être amené à utiliser des cookies à des fins de fonctionnement, de mesure d'audience ou de marketing. En continuant la navigation, vous acceptez leur utilisation. Vous pouvez à tout moment les refuser via les paramètres de votre navigateur."
+    }
+  },
+  "portfolio": {
+    "title": "Nos",
+    "titleHighlight": "projets",
+    "description": "Découvrez les réalisations de Dikio dans différents secteurs d'activité",
+    "noProjects": "Aucun projet ne correspond à cette catégorie pour le moment.",
+    "viewProject": "Voir le projet en détail",
+    "ctaTitle": "Vous avez un projet similaire ?",
+    "ctaDescription": "Découvrez comment Dikio peut vous accompagner dans votre transformation digitale.",
+    "ctaButton": "Démarrer un projet avec nous",
+    "categories": {
+      "all": "Tous les projets",
+      "site": "🌐 Sites web",
+      "application": "📱 Applications",
+      "ecommerce": "🛍️ E-commerce",
+      "plateforme": "🔄 Plateformes"
+    }
+  },
+  "aboutPage": {
+    "title": "À propos de",
+    "titleHighlight": "Dikio",
+    "description": "L'agence de croissance digitale qui équipe celles et ceux qui créent, innovent, lancent, testent et pivotent avec agilité.",
+    "storyTitle": "Notre histoire",
+    "storyP1": "Dikio est née de la rencontre entre expertise digitale et vision entrepreneuriale. Fondée pour répondre aux besoins des créateurs et innovateurs, notre agence s'est spécialisée dans l'accompagnement des projets en phase de lancement ou de croissance.",
+    "storyP2": "Notre équipe pluridisciplinaire réunit des talents passionnés par les nouvelles technologies et le marketing digital, avec pour objectif commun de transformer vos ambitions en réalités concrètes et mesurables.",
+    "storyP3": "Depuis notre création, nous avons accompagné plus de 50 projets dans divers secteurs, avec une expertise particulière dans la santé, le bien-être et les services innovants.",
+    "visionTitle": "Notre vision",
+    "visionP1": "Nous croyons fermement que la transformation digitale doit être accessible à tous les entrepreneurs, quelle que soit la taille de leur projet. Notre approche combine créativité, stratégie et pragmatisme pour obtenir des résultats tangibles.",
+    "visionP2": "Dikio s'engage à mettre l'innovation au service de l'humain, en créant des expériences digitales qui simplifient le quotidien et amplifient les impacts positifs de vos initiatives.",
+    "visionP3": "Notre philosophie? Agilité, proximité et excellence. Nous adaptons nos méthodologies à votre contexte spécifique, en privilégiant des cycles courts et des résultats rapides, tout en maintenant une exigence constante de qualité.",
+    "ctaTitle": "Prêt à transformer votre projet ?",
+    "ctaDescription": "Découvrez comment Dikio peut vous accompagner dans votre croissance digitale.",
+    "ctaButton": "Démarrer un projet avec nous"
+  },
+  "projectForm": {
+    "badge": "🚀 Votre aventure commence ici",
+    "title": "Démarrer votre",
+    "titleHighlight": "projet",
+    "description": "En quelques étapes simples, nous allons cerner vos besoins pour vous proposer la solution idéale pour votre projet.",
+    "steps": {
+      "project": "Projet",
+      "presence": "Présence",
+      "target": "Cible",
+      "needs": "Besoins",
+      "budget": "Budget",
+      "contact": "Contact"
+    },
+    "stepOf": "Étape {current} sur {total}",
+    "completed": "{percentage}% complété",
+    "success": {
+      "title": "Merci pour votre soumission!",
+      "description": "Votre projet a été envoyé avec succès. Notre équipe vous contactera bientôt pour discuter des prochaines étapes."
+    },
+    "toast": {
+      "success": "Votre projet a été soumis avec succès! Nous vous contacterons bientôt.",
+      "error": "Une erreur est survenue lors de la soumission du formulaire. Veuillez réessayer."
+    }
+  },
+  "servicesPage": {
+    "branding": {
+      "title": "Branding & image de marque",
+      "description": "Votre identité visuelle est la première impression que vous laissez. Nous créons des marques mémorables qui résonnent avec votre public.",
+      "benefit1": "Logos uniques et identités visuelles complètes",
+      "benefit2": "Storytelling de marque captivant",
+      "benefit3": "Supports de communication percutants",
+      "cta": "Démarrer votre projet branding",
+      "processTitle": "Comment nous donnons vie à votre marque",
+      "processDescription": "Notre approche en trois étapes pour un branding réussi.",
+      "step1Title": "Analyse et stratégie",
+      "step1Description": "Nous plongeons au cœur de votre entreprise pour comprendre votre vision, vos valeurs et votre public cible.",
+      "step2Title": "Création et design",
+      "step2Description": "Nos designers traduisent votre essence en une identité visuelle unique, du logo aux couleurs.",
+      "step3Title": "Déploiement et cohérence",
+      "step3Description": "Nous assurons une application uniforme de votre branding sur tous les supports, pour une image de marque forte."
+    },
+    "marketing": {
+      "title": "Growth Marketing & Ads",
+      "description": "Boostez votre croissance grâce à des stratégies marketing innovantes et des campagnes publicitaires percutantes.",
+      "benefit1": "Analyse approfondie de votre marché et de vos cibles",
+      "benefit2": "Création de campagnes publicitaires optimisées (Google Ads, réseaux sociaux)",
+      "benefit3": "Stratégies de contenu engageantes pour attirer et fidéliser votre audience",
+      "benefit4": "Suivi des performances et ajustements pour un ROI maximal",
+      "cta": "Démarrer un projet",
+      "whyTitle": "Pourquoi choisir notre service Growth Marketing ?",
+      "expertise": {
+        "title": "Expertise éprouvée",
+        "description": "Notre équipe possède une solide expérience en growth marketing et une connaissance approfondie des dernières tendances."
+      },
+      "custom": {
+        "title": "Solutions sur mesure",
+        "description": "Nous adaptons nos stratégies à vos besoins spécifiques et à votre budget pour des résultats optimaux."
+      },
+      "roi": {
+        "title": "Focus sur le ROI",
+        "description": "Nous mesurons en permanence l'efficacité de nos actions et ajustons nos stratégies pour maximiser votre retour sur investissement."
+      }
+    },
+    "strategy": {
+      "serviceBadge": "Service",
+      "title": "Accompagnement",
+      "titleHighlight": "stratégique",
+      "description": "Tracez la voie vers le succès : bénéficiez d'une expertise stratégique personnalisée pour structurer et développer votre projet avec méthode.",
+      "cta": "Structurer votre projet",
+      "pillarsTitle": "Les piliers de notre accompagnement",
+      "pillar1Title": "Clarté stratégique",
+      "pillar1Description": "Définition précise des objectifs, du marché cible et des avantages concurrentiels de votre projet.",
+      "pillar2Title": "Parcours client optimisé",
+      "pillar2Description": "Conception d'une expérience client fluide et engageante du premier contact à la fidélisation.",
+      "pillar3Title": "Métriques de croissance",
+      "pillar3Description": "Identification et suivi des indicateurs clés qui vous permettront de mesurer et accélérer votre développement.",
+      "testimonialsTitle": "Témoignages clients",
+      "testimonial1": "L'accompagnement stratégique de Dikio nous a permis de clarifier notre vision et de structurer notre développement. Nous avons gagné des mois de tâtonnements et évité plusieurs erreurs coûteuses.",
+      "testimonial1Author": "Fondateur de Recovv, outil de suivi patient",
+      "testimonial2": "Gary a su nous aider à identifier notre véritable valeur ajoutée et à construire une offre cohérente et attractive. Son expertise a été déterminante dans notre lancement réussi.",
+      "testimonial2Author": "Équipe de SurprizWheel, projet marketing B2B",
+      "ctaTitle": "Prêt à structurer votre projet ?",
+      "ctaDescription": "Passez de l'idée à un business viable et pérenne avec un accompagnement expert.",
+      "ctaButton": "Démarrer votre accompagnement stratégique"
+    },
+    "launching": {
+      "title": "Lancement",
+      "titleHighlight": "rapide",
+      "titleEnd": "de votre projet",
+      "description": "Transformez votre idée en réalité avec notre service de lancement rapide. Nous créons un MVP (Minimum Viable Product) pour valider votre concept et attirer vos premiers utilisateurs.",
+      "benefit1": "Validation rapide de votre idée",
+      "benefit2": "Création d'un MVP fonctionnel",
+      "benefit3": "Attraction de vos premiers utilisateurs",
+      "cta": "Démarrer votre projet",
+      "processTitle": "Comment ça",
+      "processTitleHighlight": "marche",
+      "processDescription": "Notre processus de lancement rapide est simple et efficace.",
+      "step1Title": "1. Analyse de votre idée",
+      "step1Description": "Nous évaluons la viabilité de votre concept et définissons les fonctionnalités clés de votre MVP.",
+      "step2Title": "2. Développement du MVP",
+      "step2Description": "Notre équipe développe rapidement un MVP fonctionnel, prêt à être testé par vos premiers utilisateurs.",
+      "step3Title": "3. Lancement et itération",
+      "step3Description": "Nous lançons votre MVP et recueillons les commentaires des utilisateurs pour améliorer continuellement votre produit.",
+      "portfolioTitle": "Nos",
+      "portfolioTitleHighlight": "réalisations",
+      "portfolioDescription": "Découvrez quelques-uns de nos projets de lancement rapide.",
+      "projectName": "Nom du projet",
+      "projectDescription": "Description du projet et des résultats obtenus grâce à notre service de lancement rapide."
+    },
+    "automation": {
+      "serviceBadge": "Service",
+      "title": "Automatisation &",
+      "titleHighlight": "IA",
+      "description": "Libérez du temps et améliorez votre efficacité grâce à des solutions d'automatisation intelligentes et des outils IA sur mesure.",
+      "cta": "Automatiser vos processus",
+      "solutionsTitle": "Nos solutions d'automatisation",
+      "solution1Title": "Automatisations marketing & internes",
+      "solution1Description": "Via n8n, Zapier, Make et autres outils spécialisés",
+      "solution2Title": "Bots et agents IA personnalisés",
+      "solution2Description": "Solutions GPT et outils maison adaptés à vos besoins spécifiques",
+      "solution3Title": "Intégration CRM et formulaires intelligents",
+      "solution3Description": "Systèmes automatisés pour la gestion et le scoring de prospects",
+      "solution4Title": "Solutions no-code et low-code",
+      "solution4Description": "Implémentations avec Notion, Airtable, Supabase et autres plateformes"
+    },
+    "otherServices": {
+      "title": "Découvrez nos autres services",
+      "discover": "Découvrir",
+      "launching": {
+        "title": "Lancement & mise en ligne",
+        "description": "Votre projet en ligne et prêt à vendre rapidement"
+      },
+      "branding": {
+        "title": "Identité & marque",
+        "description": "Créez une image forte et mémorable"
+      },
+      "automation": {
+        "title": "Automatisation & IA",
+        "description": "Technologies innovantes pour gagner en efficacité"
+      },
+      "marketing": {
+        "title": "Visibilité & réputation",
+        "description": "Faites-vous connaître et reconnaître"
+      },
+      "strategy": {
+        "title": "Accompagnement stratégique",
+        "description": "Structurez et développez votre projet"
+      }
+    }
+  },
+  "securityGate": {
+    "step1": {
+      "title": "Une petite étape avant de commencer",
+      "description": "Pour vous offrir une expérience personnalisée et protéger notre service des abus, nous avons besoin de vos coordonnées.",
+      "reassurance": "Promis, nous respectons votre vie privée et ne vous spammerons jamais.",
+      "button": "Je comprends, continuons"
+    },
+    "step2": {
+      "title": "Vos coordonnées",
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "email": "Adresse email",
+      "emailPlaceholder": "jean@exemple.com",
+      "phone": "Téléphone (optionnel)",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "button": "Démarrer la conversation",
+      "loading": "Vérification..."
+    },
+    "errors": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Email invalide",
+      "tooFast": "Veuillez patienter quelques secondes",
+      "botDetected": "Une erreur est survenue"
+    }
+  },
+  "archilo": {
+    "seo": {
+      "title": "Archilo - La Black Box Juridique",
+      "description": "Un serveur physique sécurisé installé à votre cabinet, couplé à une IA de niveau expert. Vos données restent chez vous. Infrastructure souveraine pour avocats."
+    },
+    "hero": {
+      "badge": "Infrastructure Souveraine Active",
+      "title1": "Pas un énième logiciel.",
+      "title2": "Un nouveau collaborateur.",
+      "description": "Un serveur physique sécurisé installé à votre cabinet, couplé à une IA de niveau expert.",
+      "dataLocal": "Vos données restent chez vous.",
+      "cta1": "Découvrir l'Offre",
+      "cta2": "Voir la démo",
+      "statusBadge": "SYSTEM CONNECTED • 100% LOCAL"
+    },
+    "hardware": {
+      "label": "Hardware",
+      "title": "La Black Box Juridique.",
+      "description": "Au lieu de vendre une licence logicielle, nous installons physiquement une machine chez vous. Vos données ne partent pas dans le Cloud. Elles restent dans cette boîte, sous clé.",
+      "localFirst": {
+        "title": "Local-First & Souverain",
+        "description": "Architecture isolée. Vos dossiers ne sortent jamais."
+      },
+      "neuralPower": {
+        "title": "Puissance Neuronale M4",
+        "description": "Un \"Stagiaire Résident\" sur puce dédiée IA."
+      }
+    },
+    "methodology": {
+      "title": "Maître d'Œuvre Technologique",
+      "description": "Nous ne vous laissons pas seul avec une machine. Notre méthodologie transforme l'objet en collaborateur proactif.",
+      "phases": {
+        "audit": {
+          "title": "Audit",
+          "description": "Diagnostic des \"tâches zombies\" du cabinet. Identification du temps perdu à trier les emails pour préparer le module \"Assistant\"."
+        },
+        "installation": {
+          "title": "Installation",
+          "description": "Livraison de la Box Archilo. Configuration des canaux sécurisés (Signal/WhatsApp) et choix des modèles de raisonnement locaux."
+        },
+        "training": {
+          "title": "Dressage",
+          "description": "Knowledge Management local. La Box scanne vos archives pour se constituer une \"mémoire\" des précédents et apprend votre style."
+        },
+        "production": {
+          "title": "Production",
+          "description": "Lancement du \"Stagiaire 24/7\". Activation des routines proactives (Veille nuit, Résumés matinaux) et automatisation des flux."
+        }
+      }
+    },
+    "stagiaire": {
+      "title": "Le Stagiaire IA en Action",
+      "description": "L'objet prend vie à travers des routines quotidiennes qui changent votre métier.",
+      "morningBriefing": {
+        "title": "Le Briefing Matinal",
+        "description": "Chaque matin à 8h00, la Box envoie un résumé des audiences, des urgences emails et de l'actualité juridique."
+      },
+      "secureConversation": {
+        "title": "Conversation Sécurisée",
+        "description": "Vous ne changez pas d'appli. Parlez à votre Box via Telegram, Signal ou WhatsApp. Elle vous répond comme un humain."
+      },
+      "nightShift": {
+        "title": "Le Night Shift",
+        "description": "La Box travaille la nuit. Analyse de pièces volumineuses et veille jurisprudentielle livrées prêtes le lendemain."
+      }
+    },
+    "cta": {
+      "badge": "Offre Pionnier",
+      "title1": "Prenez de l'avance.",
+      "title2": "Sécurisez votre Box.",
+      "features": {
+        "installation": "Installation sur site incluse",
+        "delivery": "Livraison et configuration sous 14 jours",
+        "training": "Formation des associés (2h) offerte"
+      },
+      "originalPrice": "8 999 € HT",
+      "price": "6 000€",
+      "priceSuffix": "HT",
+      "priceBadge": "Paiement unique • Matériel inclus",
+      "button": "Précommander maintenant",
+      "limitedQuantity": "Quantité limitée pour le batch #1.",
+      "deliveryGuarantee": "Livraison sous 2 semaines garantie."
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "description": "Tout ce que vous devez savoir avant de franchir le pas.",
+      "q1": {
+        "question": "Pourquoi un Mac mini et pas un autre serveur ?",
+        "answer": "Le Mac mini M4 intègre une puce neuronale (NPU) dédiée à l'intelligence artificielle. C'est actuellement le meilleur rapport puissance/consommation/silence du marché pour exécuter des modèles d'IA en local. Il consomme moins de 50W, ne fait aucun bruit et tient dans la paume de la main."
+      },
+      "q2": {
+        "question": "Mes données restent-elles vraiment chez moi ?",
+        "answer": "Oui, c'est le principe fondamental d'Archilo. La machine est physiquement installée dans votre cabinet. Vos dossiers, emails et documents ne transitent jamais par nos serveurs ni aucun cloud externe. Tout le traitement IA se fait en local sur la puce M4."
+      },
+      "q3": {
+        "question": "Est-ce conforme au RGPD et au secret professionnel ?",
+        "answer": "Absolument. Puisque vos données ne quittent jamais vos locaux, vous gardez le contrôle total sur leur traitement. Il n'y a aucun transfert vers des tiers, ce qui élimine les risques liés aux sous-traitants cloud. C'est la solution la plus sûre pour respecter le secret professionnel de l'avocat."
+      },
+      "q4": {
+        "question": "Comment fonctionne l'IA sans connexion internet ?",
+        "answer": "Les modèles d'intelligence artificielle sont installés directement sur la Box. Ils fonctionnent en local, sans avoir besoin d'internet pour le traitement. Une connexion est uniquement nécessaire pour les mises à jour et certaines fonctionnalités optionnelles (veille jurisprudentielle externe par exemple)."
+      },
+      "q5": {
+        "question": "Que se passe-t-il si la machine tombe en panne ?",
+        "answer": "Nous incluons une garantie matérielle de 2 ans et un support technique prioritaire. En cas de panne, nous intervenons sous 48h avec une machine de remplacement. Vos données sont sauvegardées localement sur un disque chiffré séparé."
+      },
+      "q6": {
+        "question": "Puis-je utiliser mes apps habituelles (Outlook, Word) ?",
+        "answer": "Oui. La Box Archilo s'intègre à votre environnement existant. Vous continuez à utiliser vos outils habituels. L'IA communique avec vous via Telegram, Signal ou WhatsApp. Vous n'avez pas à changer vos habitudes ni installer de nouveau logiciel complexe."
+      }
+    },
+    "preorder": {
+      "title": "Précommander votre Box Archilo",
+      "description": "Remplissez ce formulaire et nous vous contacterons sous 24h.",
+      "cabinetName": "Nom du cabinet",
+      "cabinetNamePlaceholder": "Cabinet Dupont & Associés",
+      "fullName": "Votre nom complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "email": "Email",
+      "emailPlaceholder": "jean@cabinet.fr",
+      "phone": "Téléphone",
+      "phonePlaceholder": "06 12 34 56 78",
+      "message": "Message (optionnel)",
+      "messagePlaceholder": "Précisez vos besoins ou questions...",
+      "submit": "Confirmer la précommande",
+      "submitting": "Envoi en cours...",
+      "disclaimer": "Aucun paiement requis. Nous vous contacterons pour finaliser votre commande.",
+      "success": {
+        "title": "Précommande confirmée !",
+        "description": "Merci pour votre confiance. Notre équipe vous contactera sous 24h pour finaliser les détails de votre installation.",
+        "close": "Fermer"
+      }
+    }
+  }
+}

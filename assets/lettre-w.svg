@@ -1,0 +1,41 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrière-plan -->
+  <rect width="400" height="400" fill="#F7F9FA"/>
+  
+  <!-- Lettre W - Style minimaliste flat design -->
+  <!-- La lettre W est créée avec des formes géométriques simples et épurées -->
+  <path d="M 80 100 L 120 280 L 160 180 L 200 280 L 240 180 L 280 280 L 320 100" 
+        fill="#0F7C7C" 
+        stroke="none"
+        stroke-width="0"/>
+  
+  <!-- Version alternative avec des lignes plus épaisses pour un effet plus moderne -->
+  <!-- Cette version utilise des rectangles pour créer un effet de lettre plus épaisse -->
+  <g transform="translate(50, 50)">
+    <!-- Barre gauche extérieure -->
+    <rect x="0" y="0" width="30" height="200" fill="#0F7C7C" rx="2"/>
+    <!-- Diagonale gauche descendante -->
+    <rect x="30" y="0" width="30" height="200" fill="#0F7C7C" rx="2" transform="skewY(-20)"/>
+    <!-- Diagonale gauche montante -->
+    <rect x="60" y="100" width="30" height="100" fill="#0F7C7C" rx="2" transform="skewY(20)"/>
+    <!-- Centre (point le plus bas) -->
+    <rect x="90" y="180" width="30" height="20" fill="#0F7C7C" rx="2"/>
+    <!-- Diagonale droite montante -->
+    <rect x="120" y="100" width="30" height="100" fill="#0F7C7C" rx="2" transform="skewY(-20)"/>
+    <!-- Diagonale droite descendante -->
+    <rect x="150" y="0" width="30" height="200" fill="#0F7C7C" rx="2" transform="skewY(20)"/>
+    <!-- Barre droite extérieure -->
+    <rect x="180" y="0" width="30" height="200" fill="#0F7C7C" rx="2"/>
+  </g>
+</svg>
+
+<!-- Version simplifiée et optimisée -->
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#F7F9FA"/>
+  
+  <!-- Lettre W stylisée - version géométrique précise -->
+  <!-- Créée avec des polygones pour un contrôle total de la forme -->
+  <polygon points="80,100 120,280 160,180 200,280 240,180 280,280 320,100" 
+           fill="#0F7C7C"/>
+</svg>
+

@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "agent-rgpd": {
+      "command": "node",
+      "args": [
+        "/Users/garyhaas/Desktop/Agent-RGPD/mcp/agent-rgpd/server.js"
+      ],
+      "env": {},
+      "disabled": false
+    },
+    "designer": {
+      "command": "node",
+      "args": [
+        "/Users/garyhaas/Desktop/Agent-RGPD/mcp/designer/server.js"
+      ],
+      "env": {},
+      "disabled": true
+    },
+    "assets": {
+      "command": "node",
+      "args": [
+        "/Users/garyhaas/Desktop/Agent-RGPD/mcp/assets/server.js"
+      ],
+      "env": {},
+      "disabled": true
+    },
+    "devmentor": {
+      "command": "node",
+      "args": [
+        "/Users/garyhaas/Desktop/Agent-RGPD/mcp/devmentor/devmentor.js"
+      ],
+      "env": {},
+      "disabled": true
+    },
+    "architecture": {
+      "command": "node",
+      "args": [
+        "/Users/garyhaas/Desktop/Agent-RGPD/mcp/architecture/server.js"
+      ],
+      "env": {},
+      "disabled": true
+    }
+  }
+}

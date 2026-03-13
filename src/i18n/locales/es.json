@@ -1,0 +1,430 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "projects": "Nuestros Proyectos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "startProject": "Iniciar un Proyecto",
+    "launching": "Lanzamiento & MVP",
+    "launchingDesc": "Sitios web, funnels, starter packs",
+    "branding": "Branding & Imagen",
+    "brandingDesc": "Logos, identidad visual, storytelling",
+    "automation": "Automatización & IA",
+    "automationDesc": "Bots, agentes IA, workflows",
+    "marketing": "Growth Marketing & Ads",
+    "marketingDesc": "Campañas, SEO/SEA, reputación",
+    "strategy": "Acompañamiento Estratégico",
+    "strategyDesc": "Posicionamiento, despliegue, gestión",
+    "archilo": "Programa Archilo",
+    "archiloDesc": "Arquitectura digital para despachos de abogados"
+  },
+  "hero": {
+    "badge": "La era de la IA está aquí. ¿Estás listo?",
+    "title1": "La agencia que transforma tus",
+    "title2": "ideas",
+    "title3": "en",
+    "title4": "negocio",
+    "title5": "con IA",
+    "description": "Estrategia, automatización, branding y lanzamiento. Ayudamos a emprendedores y PyMEs a aprovechar el poder de la inteligencia artificial para crecer más rápido, con menos recursos.",
+    "cta1": "Inicia Tu Proyecto",
+    "cta2": "Descubre Nuestro Enfoque IA",
+    "stats": {
+      "projects": "Proyectos Lanzados",
+      "countries": "Países",
+      "hours": "Horas Ahorradas/Semana",
+      "efficiency": "Eficiencia IA"
+    }
+  },
+  "services": {
+    "title": "Nuestra",
+    "titleHighlight": "Experiencia",
+    "description": "Experiencia completa para lanzar, desarrollar y automatizar tu negocio en la era de la IA.",
+    "automation": {
+      "title": "Automatización & IA",
+      "description": "Agentes IA, bots personalizados, automatización de workflows. Ahorra tiempo y escala sin esfuerzo."
+    },
+    "legal": {
+      "title": "Legal Tech",
+      "description": "Arquitectura digital soberana para bufetes de abogados. IA integrada, datos seguros en el sitio."
+    },
+    "medical": {
+      "title": "Optimización Médica",
+      "description": "Gestión de caja automatizada, conciliación CB/TPE, recuperación inteligente de deudas para profesionales."
+    },
+    "launching": {
+      "title": "Lanzamiento Rápido",
+      "description": "Tu MVP o sitio listo para vender en 3 semanas. Del concepto al mercado, rápidamente."
+    },
+    "branding": {
+      "title": "Branding & Identidad",
+      "description": "Logo, universo visual, posicionamiento. Crea una marca memorable que destaque."
+    },
+    "marketing": {
+      "title": "Growth Marketing",
+      "description": "Campañas Ads optimizadas, adquisición de clientes, estrategias de crecimiento ROI+."
+    },
+    "strategy": {
+      "title": "Estrategia & Consultoría",
+      "description": "Posicionamiento, modelo de negocio, roadmap. Estructura tu proyecto para el éxito."
+    },
+    "learnMore": "Saber Más",
+    "viewAll": "Ver Todos los Servicios",
+    "featuredBadge": "⚡ Experiencia Principal"
+  },
+  "about": {
+    "title": "Una agencia",
+    "titleHighlight": "full-stack",
+    "titleEnd": "para emprendedores ambiciosos",
+    "description1": "Dikio acompaña a creadores, startups y PyMEs en su transformación digital. De la estrategia al despliegue, construimos soluciones a medida que generan resultados concretos.",
+    "description2": "¿Nuestra fortaleza? Una experiencia transversal que combina creatividad, tecnología e inteligencia artificial para ahorrarte tiempo y dinero.",
+    "learnMore": "Más Sobre Dikio",
+    "pillars": {
+      "expertise": {
+        "title": "Experiencia Multidisciplinaria",
+        "description": "Web, diseño, marketing, IA: un equipo completo para cada proyecto."
+      },
+      "results": {
+        "title": "Orientado a Resultados",
+        "description": "Objetivos medibles, acciones concretas, ROI rastreado."
+      },
+      "agility": {
+        "title": "Agilidad & Rapidez",
+        "description": "Iteraciones rápidas, entregas frecuentes, adaptación continua."
+      },
+      "innovation": {
+        "title": "Innovación Constante",
+        "description": "Vigilancia tecnológica permanente para mantenerte adelante."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "¿Listo para acelerar tu crecimiento? ¡Hablemos de tu proyecto!",
+    "formTitle": "Envíanos un Mensaje",
+    "namePlaceholder": "Tu Nombre",
+    "emailPlaceholder": "Tu Email",
+    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "submit": "Enviar Mensaje",
+    "submitting": "Enviando...",
+    "findUs": "Cómo Encontrarnos",
+    "phone": "Teléfono",
+    "email": "Email",
+    "address": "Dirección",
+    "success": {
+      "title": "¡Mensaje enviado con éxito!",
+      "description": "Te responderemos lo antes posible."
+    },
+    "error": {
+      "title": "Error",
+      "validation": "Por favor, completa todos los campos del formulario.",
+      "submit": "Ocurrió un error al enviar el mensaje. Por favor, inténtalo más tarde."
+    }
+  },
+  "footer": {
+    "tagline": "La agencia de crecimiento para inventores y creadores ambiciosos",
+    "services": "Nuestros Servicios",
+    "navigation": "Navegación",
+    "legal": "Aviso Legal",
+    "privacy": "Política de Privacidad",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "french": "Français",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "cookies": {
+    "title": "Usamos cookies 🍪",
+    "description": "Usamos cookies para mejorar su experiencia, analizar el tráfico y personalizar el contenido. Puede aceptar todas las cookies o personalizar sus preferencias.",
+    "acceptAll": "Aceptar todo",
+    "refuseAll": "Rechazar todo",
+    "customize": "Personalizar",
+    "learnMore": "Más información en nuestra",
+    "privacyPolicy": "Política de privacidad",
+    "close": "Cerrar",
+    "settingsTitle": "Configuración de cookies",
+    "necessary": {
+      "title": "Cookies necesarias",
+      "description": "Esenciales para el funcionamiento del sitio (sesión, preferencias)"
+    },
+    "analytics": {
+      "title": "Cookies analíticas",
+      "description": "Nos ayudan a entender cómo usa el sitio"
+    },
+    "marketing": {
+      "title": "Cookies de marketing",
+      "description": "Permiten mostrar anuncios personalizados"
+    },
+    "savePreferences": "Guardar mis preferencias"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "intro": "Esta política de privacidad describe cómo Dikio Studio recopila, utiliza y protege sus datos personales cuando utiliza nuestro sitio web.",
+    "section1": {
+      "title": "1. Responsable del tratamiento",
+      "content": "El responsable del tratamiento de datos es Dikio Studio, con sede en 6 rue de Saint-Pétersbourg, 75008 París, Francia."
+    },
+    "section2": {
+      "title": "2. Datos recopilados",
+      "intro": "Podemos recopilar los siguientes datos:",
+      "item1": "Datos de identificación: nombre, apellidos, correo electrónico, número de teléfono",
+      "item2": "Datos de conexión: dirección IP, tipo de navegador, páginas visitadas",
+      "item3": "Datos de formulario: información enviada a través de nuestros formularios de contacto o proyecto"
+    },
+    "section3": {
+      "title": "3. Finalidades del tratamiento",
+      "intro": "Sus datos se recopilan para las siguientes finalidades:",
+      "item1": "Responder a sus solicitudes de contacto o presupuesto",
+      "item2": "Gestionar la relación con el cliente y el seguimiento de proyectos",
+      "item3": "Mejorar nuestros servicios y la experiencia del usuario",
+      "item4": "Enviar comunicaciones de marketing (con su consentimiento)",
+      "item5": "Cumplir con las obligaciones legales"
+    },
+    "section4": {
+      "title": "4. Base legal del tratamiento",
+      "intro": "El tratamiento de sus datos se basa en:",
+      "item1": "Su consentimiento (formularios, boletines)",
+      "item2": "La ejecución de un contrato (gestión de proyectos)",
+      "item3": "Nuestro interés legítimo (mejora de servicios)",
+      "item4": "El cumplimiento de obligaciones legales"
+    },
+    "section5": {
+      "title": "5. Destinatarios de los datos",
+      "content": "Sus datos personales están destinados únicamente a Dikio Studio y nunca se venden a terceros. Pueden compartirse con nuestros subcontratistas técnicos (alojamiento, herramientas de análisis) en estricto cumplimiento del RGPD."
+    },
+    "section6": {
+      "title": "6. Período de conservación",
+      "intro": "Sus datos se conservan durante el período necesario para los fines para los que fueron recopilados:",
+      "item1": "Datos de clientes: 5 años después del fin de la relación comercial",
+      "item2": "Datos de prospección: 3 años desde el último contacto",
+      "item3": "Cookies: 13 meses máximo"
+    },
+    "section7": {
+      "title": "7. Sus derechos",
+      "intro": "De acuerdo con el RGPD, usted tiene los siguientes derechos:",
+      "access": "Derecho de acceso: obtener confirmación de que sus datos están siendo procesados y solicitar una copia",
+      "rectification": "Derecho de rectificación: solicitar la corrección de datos inexactos",
+      "erasure": "Derecho de supresión: solicitar la eliminación de sus datos",
+      "restriction": "Derecho a la limitación: solicitar la suspensión del tratamiento",
+      "portability": "Derecho a la portabilidad: recibir sus datos en un formato estructurado",
+      "objection": "Derecho de oposición: oponerse al tratamiento de sus datos",
+      "contact": "Para ejercer estos derechos, contáctenos en:"
+    },
+    "section8": {
+      "title": "8. Cookies",
+      "content": "Nuestro sitio web utiliza cookies para mejorar su experiencia de navegación y analizar el tráfico. Puede gestionar sus preferencias de cookies a través de la configuración de su navegador o nuestro banner de consentimiento."
+    },
+    "section9": {
+      "title": "9. Seguridad",
+      "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, la modificación, la divulgación o la destrucción."
+    },
+    "section10": {
+      "title": "10. Modificaciones",
+      "content": "Nos reservamos el derecho de modificar esta política de privacidad en cualquier momento. Cualquier cambio se publicará en esta página con una fecha de actualización."
+    },
+    "section11": {
+      "title": "11. Contacto y reclamaciones",
+      "content": "Para cualquier pregunta sobre esta política o sus datos personales, contáctenos en:",
+      "cnil": "También tiene derecho a presentar una reclamación ante la CNIL (Autoridad Francesa de Protección de Datos):"
+    },
+    "lastUpdate": "Última actualización: Enero 2026"
+  },
+  "legal": {
+    "title": "Aviso legal",
+    "editor": {
+      "title": "Editor del sitio",
+      "intro": "Este sitio web es publicado por Dikio Studio, una empresa de servicios especializada en growth marketing.",
+      "company": "Nombre de la empresa:",
+      "form": "Forma jurídica:",
+      "formValue": "(a especificar, ej. SAS, SARL, autónomo)",
+      "address": "Sede social:",
+      "email": "Correo electrónico:",
+      "phone": "Teléfono:",
+      "siret": "Número SIRET:",
+      "rcs": "RCS:",
+      "director": "Director de publicación:",
+      "toComplete": "(por completar)"
+    },
+    "hosting": {
+      "title": "Alojamiento",
+      "intro": "El sitio web está alojado por:"
+    },
+    "intellectual": {
+      "title": "Propiedad intelectual",
+      "content": "Todo el contenido de este sitio web (textos, imágenes, gráficos, logotipo, etc.) es propiedad exclusiva de Dikio Studio, salvo indicación contraria. Cualquier reproducción, distribución o uso sin autorización previa está prohibido."
+    },
+    "responsibility": {
+      "title": "Responsabilidad",
+      "content": "Dikio Studio se esfuerza por garantizar la exactitud y actualización de la información en el sitio web. Sin embargo, no puede ser responsable de errores u omisiones. Los usuarios siguen siendo responsables del uso que hacen de la información disponible."
+    },
+    "personalData": {
+      "title": "Datos personales",
+      "content": "Los datos personales recopilados a través del sitio web están destinados únicamente al uso interno de Dikio Studio. No serán vendidos ni transferidos a terceros sin consentimiento.",
+      "gdpr": "De acuerdo con la Ley de Protección de Datos y el RGPD, tiene derecho a acceder, rectificar y eliminar sus datos personales. Para ejercer este derecho, contáctenos en:"
+    },
+    "cookiesSection": {
+      "title": "Cookies",
+      "content": "El sitio web puede utilizar cookies con fines funcionales, de medición de audiencia o de marketing. Al continuar navegando, acepta su uso. Puede rechazarlas en cualquier momento a través de la configuración de su navegador."
+    }
+  },
+  "securityGate": {
+    "step1": {
+      "title": "Un pequeño paso antes de empezar",
+      "description": "Para ofrecerte una experiencia personalizada y proteger nuestro servicio de abusos, necesitamos tus datos de contacto.",
+      "reassurance": "Prometemos respetar tu privacidad y nunca enviarte spam.",
+      "button": "Entiendo, continuemos"
+    },
+    "step2": {
+      "title": "Tus datos de contacto",
+      "fullName": "Nombre completo",
+      "fullNamePlaceholder": "Juan García",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "phone": "Teléfono (opcional)",
+      "phonePlaceholder": "+34 612 345 678",
+      "button": "Iniciar la conversación",
+      "loading": "Verificando..."
+    },
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El email es obligatorio",
+      "emailInvalid": "Email inválido",
+      "tooFast": "Por favor espera unos segundos",
+      "botDetected": "Ha ocurrido un error"
+    }
+  },
+  "archilo": {
+    "seo": {
+      "title": "Archilo - La Black Box Jurídica",
+      "description": "Un servidor físico seguro instalado en su despacho, combinado con IA de nivel experto. Sus datos permanecen con usted. Infraestructura soberana para abogados."
+    },
+    "hero": {
+      "badge": "Infraestructura Soberana Activa",
+      "title1": "No es otro software.",
+      "title2": "Un nuevo colaborador.",
+      "description": "Un servidor físico seguro instalado en su despacho, combinado con IA de nivel experto.",
+      "dataLocal": "Sus datos permanecen con usted.",
+      "cta1": "Descubrir la Oferta",
+      "cta2": "Ver la demo",
+      "statusBadge": "SISTEMA CONECTADO • 100% LOCAL"
+    },
+    "hardware": {
+      "label": "Hardware",
+      "title": "La Black Box Jurídica.",
+      "description": "En lugar de vender una licencia de software, instalamos físicamente una máquina en sus instalaciones. Sus datos no van a la nube. Permanecen en esta caja, bajo llave.",
+      "localFirst": {
+        "title": "Local-First & Soberano",
+        "description": "Arquitectura aislada. Sus expedientes nunca salen."
+      },
+      "neuralPower": {
+        "title": "Potencia Neural M4",
+        "description": "Un \"Becario Residente\" en chip de IA dedicado."
+      }
+    },
+    "methodology": {
+      "title": "Maestro de Obra Tecnológico",
+      "description": "No le dejamos solo con una máquina. Nuestra metodología transforma el dispositivo en un colaborador proactivo.",
+      "phases": {
+        "audit": {
+          "title": "Auditoría",
+          "description": "Diagnóstico de las \"tareas zombi\" del despacho. Identificación del tiempo perdido clasificando emails para preparar el módulo \"Asistente\"."
+        },
+        "installation": {
+          "title": "Instalación",
+          "description": "Entrega de la Box Archilo. Configuración de canales seguros (Signal/WhatsApp) y selección de modelos de razonamiento locales."
+        },
+        "training": {
+          "title": "Entrenamiento",
+          "description": "Gestión del Conocimiento local. La Box escanea sus archivos para construir una \"memoria\" de precedentes y aprende su estilo."
+        },
+        "production": {
+          "title": "Producción",
+          "description": "Lanzamiento del \"Becario 24/7\". Activación de rutinas proactivas (Vigilancia nocturna, Resúmenes matinales) y automatización de flujos."
+        }
+      }
+    },
+    "stagiaire": {
+      "title": "El Becario IA en Acción",
+      "description": "El dispositivo cobra vida a través de rutinas diarias que transforman su práctica.",
+      "morningBriefing": {
+        "title": "Briefing Matutino",
+        "description": "Cada mañana a las 8:00, la Box envía un resumen de audiencias, emails urgentes y noticias jurídicas relevantes."
+      },
+      "secureConversation": {
+        "title": "Conversación Segura",
+        "description": "No cambia de app. Hable con su Box vía Telegram, Signal o WhatsApp. Responde como un humano."
+      },
+      "nightShift": {
+        "title": "El Turno de Noche",
+        "description": "La Box trabaja de noche. Análisis de documentos voluminosos y vigilancia jurisprudencial listos para la mañana siguiente."
+      }
+    },
+    "cta": {
+      "badge": "Oferta Pionero",
+      "title1": "Tome la delantera.",
+      "title2": "Asegure su Box.",
+      "features": {
+        "installation": "Instalación en sitio incluida",
+        "delivery": "Entrega y configuración en 14 días",
+        "training": "Formación de socios (2h) incluida"
+      },
+      "originalPrice": "8.999 € sin IVA",
+      "price": "6.000€",
+      "priceSuffix": "sin IVA",
+      "priceBadge": "Pago único • Hardware incluido",
+      "button": "Reservar ahora",
+      "limitedQuantity": "Cantidad limitada para el lote #1.",
+      "deliveryGuarantee": "Entrega en 2 semanas garantizada."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Todo lo que necesita saber antes de dar el paso.",
+      "q1": {
+        "question": "¿Por qué un Mac mini y no otro servidor?",
+        "answer": "El Mac mini M4 integra un chip neuronal (NPU) dedicado a la inteligencia artificial. Actualmente es la mejor relación potencia/consumo/silencio del mercado para ejecutar modelos de IA localmente. Consume menos de 50W, no hace ruido y cabe en la palma de la mano."
+      },
+      "q2": {
+        "question": "¿Mis datos realmente se quedan conmigo?",
+        "answer": "Sí, ese es el principio fundamental de Archilo. La máquina se instala físicamente en su despacho. Sus expedientes, emails y documentos nunca pasan por nuestros servidores ni por ninguna nube externa. Todo el procesamiento de IA se realiza localmente en el chip M4."
+      },
+      "q3": {
+        "question": "¿Es conforme al RGPD y al secreto profesional?",
+        "answer": "Absolutamente. Dado que sus datos nunca abandonan sus instalaciones, usted mantiene el control total sobre su tratamiento. No hay transferencia a terceros, lo que elimina los riesgos asociados a los subcontratistas en la nube. Es la solución más segura para respetar el secreto profesional del abogado."
+      },
+      "q4": {
+        "question": "¿Cómo funciona la IA sin conexión a internet?",
+        "answer": "Los modelos de inteligencia artificial se instalan directamente en la Box. Funcionan localmente, sin necesidad de internet para el procesamiento. Solo se necesita conexión para actualizaciones y ciertas funciones opcionales (vigilancia jurisprudencial externa, por ejemplo)."
+      },
+      "q5": {
+        "question": "¿Qué pasa si la máquina se avería?",
+        "answer": "Incluimos una garantía de hardware de 2 años y soporte técnico prioritario. En caso de avería, intervenimos en 48 horas con una máquina de reemplazo. Sus datos se respaldan localmente en un disco cifrado separado."
+      },
+      "q6": {
+        "question": "¿Puedo usar mis aplicaciones habituales (Outlook, Word)?",
+        "answer": "Sí. La Box Archilo se integra con su entorno existente. Continúa usando sus herramientas habituales. La IA se comunica con usted vía Telegram, Signal o WhatsApp. No tiene que cambiar sus hábitos ni instalar software nuevo complejo."
+      }
+    },
+    "preorder": {
+      "title": "Reserve su Box Archilo",
+      "description": "Complete este formulario y le contactaremos en 24 horas.",
+      "cabinetName": "Nombre del despacho",
+      "cabinetNamePlaceholder": "García & Asociados",
+      "fullName": "Su nombre completo",
+      "fullNamePlaceholder": "Juan García",
+      "email": "Email",
+      "emailPlaceholder": "juan@despacho.es",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+34 612 345 678",
+      "message": "Mensaje (opcional)",
+      "messagePlaceholder": "Especifique sus necesidades o preguntas...",
+      "submit": "Confirmar reserva",
+      "submitting": "Enviando...",
+      "disclaimer": "Sin pago requerido. Le contactaremos para finalizar su pedido.",
+      "success": {
+        "title": "¡Reserva confirmada!",
+        "description": "Gracias por su confianza. Nuestro equipo le contactará en 24 horas para finalizar los detalles de su instalación.",
+        "close": "Cerrar"
+      }
+    }
+  }
+}
