@@ -106,7 +106,7 @@ const Launching = () => {
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <img
-                  src="/lovable-uploads/0999859b-959a-4c4b-844d-96855979599a.png"
+                  src="/images/0999859b-959a-4c4b-844d-96855979599a.png"
                   alt="Projet 1"
                   className="w-full h-48 object-cover"
                 />
@@ -122,7 +122,7 @@ const Launching = () => {
               </div>
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <img
-                  src="/lovable-uploads/0999859b-959a-4c4b-844d-96855979599a.png"
+                  src="/images/0999859b-959a-4c4b-844d-96855979599a.png"
                   alt="Projet 2"
                   className="w-full h-48 object-cover"
                 />
@@ -138,7 +138,7 @@ const Launching = () => {
               </div>
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <img
-                  src="/lovable-uploads/0999859b-959a-4c4b-844d-96855979599a.png"
+                  src="/images/0999859b-959a-4c4b-844d-96855979599a.png"
                   alt="Projet 3"
                   className="w-full h-48 object-cover"
                 />

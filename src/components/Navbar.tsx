@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio Logo" className="h-20 object-contain" />
+              <img src="/images/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio Logo" className="h-20 object-contain" />
             </Link>
           </div>
           

@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/lovable-uploads/c408f7e1-9171-44c5-847c-9754bd6d5c72.png" type="image/png" />
+        <link rel="icon" href="/images/c408f7e1-9171-44c5-847c-9754bd6d5c72.png" type="image/png" />
       </head>
       <body className={inter.className}>
         <Providers>{children}</Providers>

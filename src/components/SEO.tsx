@@ -9,7 +9,7 @@ const defaultOrganizationSchema = {
   "@type": "Organization",
   "name": "Dikio",
   "url": "https://dikio.fr",
-  "logo": "https://dikio.fr/lovable-uploads/c408f7e1-9171-44c5-847c-9754bd6d5c72.png",
+  "logo": "https://dikio.fr/images/c408f7e1-9171-44c5-847c-9754bd6d5c72.png",
   "description": "Dikio est une agence digitale spécialisée dans la croissance rapide et durable des projets innovants.",
   "sameAs": [
     "https://www.linkedin.com/company/dikio",

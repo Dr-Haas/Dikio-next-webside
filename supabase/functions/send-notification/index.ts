@@ -17,7 +17,7 @@ interface ProjectNotificationRequest {
 }
 
 // Logo URL - update this with your production domain
-const LOGO_URL = "https://dikio.fr/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png";
+const LOGO_URL = "https://dikio.fr/images/771a8b36-282b-42f2-8437-f98e84fc4d05.png";
 
 const handler = async (req: Request): Promise<Response> => {
   // Handle CORS preflight requests

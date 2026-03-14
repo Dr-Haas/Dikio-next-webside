@@ -57,7 +57,7 @@ const GeoAlliance = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <Link href="/">
-              <img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-16 object-contain" />
+              <img src="/images/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-16 object-contain" />
             </Link>
             <span className="text-[#2ab191] font-semibold text-lg tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>GEO Alliance</span>
           </div>
@@ -548,7 +548,7 @@ const GeoAlliance = () => {
           <p className="text-sm text-[#5a5a5a]">GEO Alliance · Positionnement IA pour cabinets d'avocats · <a href="https://dikio.fr" className="text-[#2ab191] hover:underline">dikio.fr</a></p>
           <div className="flex items-center gap-2 text-sm text-[#5a5a5a]">
             Propulsé par
-            <Link href="/"><img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-14 object-contain" /></Link>
+            <Link href="/"><img src="/images/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-14 object-contain" /></Link>
           </div>
         </div>
       </footer>

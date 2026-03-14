@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <div className="mb-4">
               <Link href="/">
-                <img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio Logo" className="h-20 object-contain cursor-pointer" />
+                <img src="/images/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio Logo" className="h-20 object-contain cursor-pointer" />
               </Link>
             </div>
             <p className="text-gray-700 mb-4">
