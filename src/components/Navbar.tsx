@@ -66,25 +66,25 @@ const Navbar = () => {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/portfolio">
-                    <NavigationMenuLink className={navigationMenuTriggerStyle() + " text-dikio-title hover:text-dikio-accent transition-colors"}>
+                  <NavigationMenuLink asChild>
+                    <Link href="/portfolio" className={navigationMenuTriggerStyle() + " text-dikio-title hover:text-dikio-accent transition-colors"}>
                       {t('nav.projects')}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/about">
-                    <NavigationMenuLink className={navigationMenuTriggerStyle() + " text-dikio-title hover:text-dikio-accent transition-colors"}>
+                  <NavigationMenuLink asChild>
+                    <Link href="/about" className={navigationMenuTriggerStyle() + " text-dikio-title hover:text-dikio-accent transition-colors"}>
                       {t('nav.about')}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/contact">
-                    <NavigationMenuLink className={navigationMenuTriggerStyle() + " text-dikio-title hover:text-dikio-accent transition-colors"}>
+                  <NavigationMenuLink asChild>
+                    <Link href="/contact" className={navigationMenuTriggerStyle() + " text-dikio-title hover:text-dikio-accent transition-colors"}>
                       {t('nav.contact')}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
@@ -92,11 +92,9 @@ const Navbar = () => {
           
           <div className="hidden md:flex items-center gap-2">
             <LanguageSwitcher />
-            <Link href="/project-form">
-              <Button className="bg-dikio-accent hover:bg-dikio-accent-light text-white transform transition-transform duration-300 hover:scale-105">
-                {t('nav.startProject')}
-              </Button>
-            </Link>
+            <Button asChild className="bg-dikio-accent hover:bg-dikio-accent-light text-white transform transition-transform duration-300 hover:scale-105">
+              <Link href="/project-form">{t('nav.startProject')}</Link>
+            </Button>
           </div>
           
           {/* Mobile menu button */}
@@ -139,11 +137,9 @@ const Navbar = () => {
               {t('nav.contact')}
             </Link>
             <div className="px-3 py-2">
-              <Link href="/project-form" onClick={() => setIsMenuOpen(false)}>
-                <Button className="w-full bg-dikio-accent hover:bg-dikio-accent-light text-white">
-                  {t('nav.startProject')}
-                </Button>
-              </Link>
+              <Button asChild className="w-full bg-dikio-accent hover:bg-dikio-accent-light text-white">
+                <Link href="/project-form" onClick={() => setIsMenuOpen(false)}>{t('nav.startProject')}</Link>
+              </Button>
             </div>
           </div>
         </div>
