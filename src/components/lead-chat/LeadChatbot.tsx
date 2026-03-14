@@ -14,7 +14,9 @@ type Message = {
 };
 
 // Compatible intégration Vercel–Supabase : PUBLISHABLE_KEY = anon key
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://apbrupkcxsbrdbzyaspt.supabase.co';
+let SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://apbrupkcxsbrdbzyaspt.supabase.co';
+// Corriger la typo .supabase.c → .supabase.co si la variable d'env est incorrecte (ex. sur Vercel)
+if (SUPABASE_URL.endsWith('.supabase.c')) SUPABASE_URL = SUPABASE_URL + 'o';
 const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwYnJ1cGtjeHNicmRienlhc3B0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc4NzM2NDEsImV4cCI6MjA4MzQ0OTY0MX0.rvr_O8Fe48yjU06346s7bN0O5CiOIGBBRIahei_9z2Y';
 const CHAT_URL = `${SUPABASE_URL}/functions/v1/lead-chat`;
 

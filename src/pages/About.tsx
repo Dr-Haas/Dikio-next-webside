@@ -1,19 +1,25 @@
 'use client';
 
 import React from 'react';
-import AboutHero from '@/components/about/AboutHero';
-import FounderSection from '@/components/about/FounderSection';
+import AboutAuditHero from '@/components/about/AboutAuditHero';
+import WhyDikioExistsSection from '@/components/about/WhyDikioExistsSection';
+import DikioBelievesSection from '@/components/about/DikioBelievesSection';
 import EtymologySection from '@/components/about/EtymologySection';
-import AboutCTA from '@/components/about/AboutCTA';
+import AboutFounderBlock from '@/components/about/AboutFounderBlock';
+import ConsultantComparisonSection from '@/components/about/ConsultantComparisonSection';
+import AboutMethodCTA from '@/components/about/AboutMethodCTA';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-dikio-background">
+    <div className="min-h-screen bg-dikio-blue">
       <main>
-        <AboutHero />
-        <FounderSection />
-        <EtymologySection />
-        <AboutCTA />
+        <AboutAuditHero />
+        <WhyDikioExistsSection />
+        <DikioBelievesSection />
+        <EtymologySection variant="dark" />
+        <AboutFounderBlock />
+        <ConsultantComparisonSection />
+        <AboutMethodCTA />
       </main>
     </div>
   );
