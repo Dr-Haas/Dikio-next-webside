@@ -3,6 +3,8 @@ import { supabaseUntyped } from '@/lib/supabaseClient';
 import ProjectDetail from '@/pages/ProjectDetail';
 import type { PortfolioProjectDetail } from '@/hooks/usePortfolioProject';
 
+export const dynamic = 'force-dynamic';
+
 type Props = {
   params: Promise<{ id: string }>;
 };

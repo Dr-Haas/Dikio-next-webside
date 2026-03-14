@@ -12,6 +12,11 @@ Dans **Vercel** → ton projet → **Settings** → **Environment Variables** :
 |----------|--------|----------------|
 | `NEXT_PUBLIC_SUPABASE_URL` | `https://apbrupkcxsbrdbzyaspt.supabase.co` | **Production** et **Preview** |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | La clé **anon** (JWT longue) | **Production** et **Preview** |
+| `SUPABASE_SERVICE_ROLE_KEY` | La clé **service_role** (secret) | **Production** et **Preview** *(recommandé pour que le portfolio charge comme en local)* |
+
+### Pourquoi « en local j'ai les données, en ligne non » ?
+
+En local, ton `.env` contient souvent **`SUPABASE_SERVICE_ROLE_KEY`**. Le portfolio utilise alors le client serveur (service role), qui contourne la RLS et charge bien les projets. Sur **Vercel**, sans cette variable, le code utilise la clé **anon** et tu peux voir les projets de **fallback** au lieu de ta base. **À faire** : ajouter **`SUPABASE_SERVICE_ROLE_KEY`** (Supabase Dashboard → Project Settings → API → service_role), puis redéployer.
 
 ### Où trouver la clé anon
 
@@ -57,4 +62,4 @@ Pour que le navigateur sur `https://www.dikio.fr` puisse appeler Supabase :
 
 ---
 
-Récap : **URL + clé anon (JWT)** sur Vercel pour Production et Preview, **CORS** avec `https://www.dikio.fr` et `https://dikio.fr` dans Supabase, puis **redéploiement**.
+Récap : **URL + clé anon (JWT) + clé service_role** sur Vercel pour Production et Preview, **CORS** avec `https://www.dikio.fr` et `https://dikio.fr` dans Supabase, puis **redéploiement**.

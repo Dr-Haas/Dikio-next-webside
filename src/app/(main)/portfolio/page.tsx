@@ -5,6 +5,9 @@ import Portfolio from '@/pages/Portfolio';
 import type { ProjectData } from '@/components/portfolio/ProjectCard';
 import { fallbackProjects } from '@/data/portfolioData';
 
+// Évite la génération statique au build (Supabase peut être injoignable) ; la page est rendue à la demande.
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: 'Portfolio | Dikio',
   description: "Découvrez nos réalisations : startups IA, applications, plateformes SaaS. Des projets innovants qui transforment leur secteur.",
