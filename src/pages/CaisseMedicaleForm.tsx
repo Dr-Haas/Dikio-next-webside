@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase } from '@/integrations/supabase/client';
@@ -10,7 +12,6 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
-import SEO from '@/components/SEO';
 
 // ─── Types ───────────────────────────────────────────────────────
 interface FormData {
@@ -240,7 +241,6 @@ const CaisseMedicaleForm = () => {
   if (submitted) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-[#0a0f1a] to-[#141922] flex items-center justify-center px-4">
-        <SEO title="Demande envoyée" url="https://dikio.fr/caisse-medicale/demande" />
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -504,12 +504,6 @@ const CaisseMedicaleForm = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0a0f1a] to-[#141922] relative overflow-hidden">
-      <SEO
-        title="Pré-qualification | Caisse Médicale"
-        description="Répondez à quelques questions pour recevoir une analyse personnalisée de votre gestion de caisse."
-        url="https://dikio.fr/caisse-medicale/demande"
-      />
-
       {/* Subtle grid bg */}
       <div
         className="absolute inset-0 opacity-[0.02]"

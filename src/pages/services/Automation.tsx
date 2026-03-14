@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { 
   ArrowRight, 
@@ -18,8 +20,6 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import OtherServices from '@/components/OtherServices';
-import SEO from '@/components/SEO';
-
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
@@ -36,12 +36,6 @@ const staggerContainer = {
 const Automation = () => {
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Automatisation & IA"
-        description="Automatisez vos processus avec l'intelligence artificielle. Chatbots, CRM automatisé, workflows intelligents. Gagnez du temps et boostez votre productivité."
-        keywords="automatisation IA, intelligence artificielle, chatbot, CRM automatisé, workflow, no-code, low-code, productivité"
-        url="https://dikio.fr/services/automation"
-      />
       <main>
         {/* Header Section - Conservé */}
         <section className="py-16 md:py-24">
@@ -60,7 +54,7 @@ const Automation = () => {
                   intelligentes et des outils IA sur mesure.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Link to="/project-form">
+                  <Link href="/project-form">
                     <Button size="lg" className="bg-dikio-accent hover:bg-dikio-accent-light text-white font-medium">
                       Automatiser vos processus
                       <ArrowRight className="ml-2 h-4 w-4" />
@@ -523,7 +517,7 @@ const Automation = () => {
                 className="flex flex-col sm:flex-row gap-4 justify-center"
               >
                 <Button asChild size="lg" className="bg-dikio-accent hover:bg-dikio-accent-light text-white">
-                  <Link to="/project-form">
+                  <Link href="/project-form">
                     Démarrer votre projet d'automatisation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>

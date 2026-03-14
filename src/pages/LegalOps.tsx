@@ -1,5 +1,7 @@
+'use client';
+
 import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import SEO from '@/components/SEO';
 import gsap from 'gsap';
@@ -34,13 +36,7 @@ const LegalOps = () => {
 
   return (
     <div ref={pageRef} className="min-h-screen bg-dikio-background">
-      <SEO
-        title="Audit LegalOps · Dikio"
-        description="Le seul audit opérationnel 100% indépendant pour cabinets d'avocats. Pas de logiciel à vendre. Un diagnostic objectif pour décider en connaissance de cause."
-        keywords="legalops, audit cabinet avocats, diagnostic opérationnel, legaltech indépendant, cahier des charges IT cabinet"
-        url="https://dikio.fr/legalops"
-        jsonLd={legalOpsSchema}
-      />
+      <SEO jsonLd={legalOpsSchema} />
 
       {/* HERO */}
       <section className="pt-32 pb-20 md:pt-44 md:pb-32 relative overflow-hidden">
@@ -62,7 +58,7 @@ const LegalOps = () => {
             Outils empilés, données en silos, process manuels, heures facturables perdues. Vous êtes excellents en droit. Vos opérations, elles, sont restées en 2015.
           </p>
           <Link
-            to="/legalops/demande"
+            href="/legalops/demande"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-dikio-title text-white font-semibold text-base hover:bg-dikio-title/90 transition-colors duration-200"
           >
             Demander un audit LegalOps <ArrowRight className="w-5 h-5" />
@@ -335,7 +331,7 @@ const LegalOps = () => {
           </p>
           <div data-reveal>
             <Link
-              to="/legalops/demande"
+              href="/legalops/demande"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-dikio-title text-white font-semibold text-base hover:bg-dikio-title/90 transition-colors duration-200"
             >
               Demander un audit LegalOps <ArrowRight className="w-5 h-5" />

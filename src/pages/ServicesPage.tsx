@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import SEO from '@/components/SEO';
 import Services from '@/components/Services';
@@ -43,13 +45,7 @@ const ServicesPage = () => {
 
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Nos Services"
-        description="Découvrez nos services : lancement rapide, branding, automatisation IA, growth marketing et accompagnement stratégique. Transformez votre vision en réalité."
-        keywords="services dikio, growth marketing, automatisation IA, branding, lancement projet, stratégie digitale, MVP"
-        url="https://dikio.fr/services"
-        jsonLd={servicesSchema}
-      />
+      <SEO jsonLd={servicesSchema} />
       <main>
         <Services />
       </main>

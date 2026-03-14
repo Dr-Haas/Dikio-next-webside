@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, Loader2, Sparkles } from 'lucide-react';
@@ -11,7 +13,7 @@ type Message = {
   content: string;
 };
 
-const CHAT_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/lead-chat`;
+const CHAT_URL = `${process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://apbrupkcxsbrdbzyaspt.supabase.co'}/functions/v1/lead-chat`;
 
 interface LeadChatbotProps {
   onBriefGenerated?: (brief: any) => void;
@@ -83,7 +85,7 @@ const LeadChatbot = ({
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''}`,
         },
         body: JSON.stringify({ messages: updatedMessages }),
       });

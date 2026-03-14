@@ -1,6 +1,8 @@
+'use client';
+
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Rocket, Palette, Bot, Megaphone, Briefcase } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -64,7 +66,7 @@ const OtherServices: React.FC<OtherServicesProps> = ({ currentServicePath }) => 
             return (
               <Link
                 key={index}
-                to={service.link}
+                href={service.link}
                 className="group relative flex flex-col p-6 rounded-2xl border border-dikio-title/10 bg-white/60 backdrop-blur-sm transition-all duration-300 hover:border-dikio-subtitle/30 hover:shadow-lg hover:shadow-dikio-subtitle/5 hover:-translate-y-1"
               >
                 <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-4 bg-dikio-subtitle/10 group-hover:bg-dikio-subtitle/15 transition-colors duration-300">

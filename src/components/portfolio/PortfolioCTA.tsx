@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -30,7 +30,7 @@ const PortfolioCTA: React.FC = () => {
             Transformons votre vision en produit digital de référence. Chaque grand projet commence par une conversation.
           </p>
           <div data-gsap="scale">
-            <Link to="/project-form">
+            <Link href="/project-form">
               <Button size="lg" className="bg-dikio-accent hover:bg-dikio-accent-light text-white font-semibold px-8 py-6 text-base rounded-full shadow-lg shadow-dikio-accent/30 transition-all duration-300 hover:shadow-dikio-accent/50 hover:scale-105">
                 Démarrer mon projet
                 <ArrowRight className="ml-2 h-5 w-5" />

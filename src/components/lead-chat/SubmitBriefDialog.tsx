@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import {
   Dialog,
@@ -13,7 +15,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { toast } from 'sonner';
 import { supabase } from '@/integrations/supabase/client';
 import { Loader2, CheckCircle2, Send } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 
 interface SubmitBriefDialogProps {
   open: boolean;
@@ -23,7 +25,7 @@ interface SubmitBriefDialogProps {
 }
 
 const SubmitBriefDialog = ({ open, onOpenChange, brief, conversationHistory }: SubmitBriefDialogProps) => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [formData, setFormData] = useState({
@@ -85,7 +87,7 @@ const SubmitBriefDialog = ({ open, onOpenChange, brief, conversationHistory }: S
       // Redirect after 2 seconds
       setTimeout(() => {
         onOpenChange(false);
-        navigate('/');
+        router.push('/');
       }, 2000);
     } catch (error) {
       console.error('Submit error:', error);

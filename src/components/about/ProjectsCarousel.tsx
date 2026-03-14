@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -55,7 +57,7 @@ const ProjectsCarousel = () => {
         )}
         
         <div className="text-center mt-12">
-          <Link to="/portfolio">
+          <Link href="/portfolio">
             <Button className="bg-dikio-accent hover:bg-dikio-accent-light text-white">
               Voir tous nos projets
               <ArrowRight className="ml-2 h-4 w-4" />

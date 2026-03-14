@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { ArrowRight, CreditCard, User, FileWarning, Check, X, ExternalLink } from 'lucide-react';
 import SEO from '@/components/SEO';
@@ -699,13 +701,7 @@ const CaisseMedicale = () => {
 
   return (
     <>
-      <SEO
-        title="Optimisation Trésorerie Cabinets Médicaux"
-        description="Détectez les pertes financières cachées de votre cabinet médical ou dentaire. Automatisation complète de la gestion de caisse : rapprochement CB, débiteurs, clôture. Résultats dès le premier mois."
-        keywords="gestion caisse cabinet médical, automatisation facturation santé, débiteurs patients, rapprochement CB TPE, trésorerie cabinet dentaire, pertes financières santé"
-        url="https://dikio.fr/caisse-medicale"
-        jsonLd={jsonLd}
-      />
+      <SEO jsonLd={jsonLd} />
       
       <main className="font-sans">
         <HeroSection />

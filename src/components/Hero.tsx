@@ -1,7 +1,9 @@
+'use client';
+
 import React, { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -104,12 +106,12 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
             <Button asChild size="lg" className="bg-dikio-subtitle hover:bg-dikio-title text-white">
-              <Link to="/project-form">
+              <Link href="/project-form">
                 {t('hero.cta1')} <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-dikio-title text-dikio-title hover:bg-dikio-title/5">
-              <Link to="/ia">
+              <Link href="/ia">
                 {t('hero.cta2')}
               </Link>
             </Button>

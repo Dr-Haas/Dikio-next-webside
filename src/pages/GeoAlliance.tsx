@@ -1,7 +1,8 @@
+'use client';
+
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import {
   TrendingDown, EyeOff, DollarSign, Clock, BarChart3, Shield,
   Zap, Globe, Lock, FileText, Link2, Activity, ArrowRight,
@@ -48,11 +49,6 @@ const GeoAlliance = () => {
 
   return (
     <div className="min-h-screen bg-dikio-background text-[#1a1a1a] overflow-x-hidden" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-      <Helmet>
-        <title>GEO Alliance by Dikio | Positionnement IA pour cabinets d'avocats</title>
-        <meta name="description" content="Positionnez votre cabinet d'avocats dans les réponses de ChatGPT, Perplexity et Gemini. Programme exclusif limité à 15 cabinets en Île-de-France." />
-      </Helmet>
-
       {/* Grain overlay */}
       <div className="fixed inset-0 pointer-events-none z-50 opacity-[0.03]" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 256 256\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noise\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'4\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noise)\'/%3E%3C/svg%3E")' }} />
 
@@ -60,7 +56,7 @@ const GeoAlliance = () => {
       <nav className="fixed top-0 left-0 right-0 z-40 backdrop-blur-xl bg-dikio-background/80 border-b border-[#2ab191]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
-            <Link to="/">
+            <Link href="/">
               <img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-16 object-contain" />
             </Link>
             <span className="text-[#2ab191] font-semibold text-lg tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>GEO Alliance</span>
@@ -552,7 +548,7 @@ const GeoAlliance = () => {
           <p className="text-sm text-[#5a5a5a]">GEO Alliance · Positionnement IA pour cabinets d'avocats · <a href="https://dikio.fr" className="text-[#2ab191] hover:underline">dikio.fr</a></p>
           <div className="flex items-center gap-2 text-sm text-[#5a5a5a]">
             Propulsé par
-            <Link to="/"><img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-14 object-contain" /></Link>
+            <Link href="/"><img src="/lovable-uploads/771a8b36-282b-42f2-8437-f98e84fc4d05.png" alt="Dikio" className="h-14 object-contain" /></Link>
           </div>
         </div>
       </footer>

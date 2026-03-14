@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, TrendingDown, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -62,7 +62,7 @@ const CaisseMedicaleSection = () => {
 
           {/* CTA Button */}
           <div data-gsap="fade-up" className="text-center flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/caisse-medicale">
+            <Link href="/caisse-medicale">
               <Button 
                 size="lg"
                 className="bg-dikio-accent hover:bg-dikio-accent-light text-white font-semibold"
@@ -70,7 +70,7 @@ const CaisseMedicaleSection = () => {
                 Découvrir l'optimisation de caisse <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <Link to="/caisse-medicale/demande">
+            <Link href="/caisse-medicale/demande">
               <Button 
                 size="lg"
                 variant="outline"

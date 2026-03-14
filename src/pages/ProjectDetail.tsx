@@ -1,18 +1,18 @@
+'use client';
+
 import React, { useEffect, useRef } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Laptop, Smartphone, Tablet, Calendar, Clock, User, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import SEO from '@/components/SEO';
-import { usePortfolioProject } from '@/hooks/usePortfolioProject';
+import type { PortfolioProjectDetail } from '@/hooks/usePortfolioProject';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ProjectDetail = () => {
-  const { id } = useParams<{ id: string }>();
-  const { data: project, isLoading } = usePortfolioProject(id);
+const ProjectDetail = ({ initialProject }: { initialProject?: PortfolioProjectDetail | null }) => {
+  const project = initialProject ?? null;
   const pageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -125,20 +125,12 @@ const ProjectDetail = () => {
     return () => ctx.revert();
   }, [project]);
 
-  if (isLoading) {
-    return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-      </div>
-    );
-  }
-
   if (!project) {
     return (
       <div className="min-h-screen bg-background flex flex-col items-center justify-center gap-6 px-4">
         <h1 className="text-3xl font-bold text-foreground">Projet introuvable</h1>
         <p className="text-muted-foreground">Ce projet n'existe pas ou n'est plus disponible.</p>
-        <Link to="/portfolio">
+        <Link href="/portfolio">
           <Button variant="outline">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Retour au portfolio
@@ -163,12 +155,6 @@ const ProjectDetail = () => {
 
   return (
     <div ref={pageRef} className="min-h-screen bg-background">
-      <SEO
-        title={project.title}
-        description={project.description || `Découvrez le projet ${project.title}`}
-        url={`https://dikio.fr/portfolio/${project.id}`}
-      />
-
       {/* ── Hero Banner ── */}
       <section className="relative h-[85vh] min-h-[600px] flex items-end overflow-hidden">
         {/* Background image */}
@@ -186,7 +172,7 @@ const ProjectDetail = () => {
 
         {/* Back button */}
         <Link
-          to="/portfolio"
+          href="/portfolio"
           className="absolute top-24 left-6 md:left-10 z-10 inline-flex items-center text-white/80 hover:text-white transition-colors group backdrop-blur-sm bg-black/20 px-4 py-2 rounded-full"
         >
           <ArrowLeft className="mr-2 h-4 w-4 transition-transform group-hover:-translate-x-1" />
@@ -372,7 +358,7 @@ const ProjectDetail = () => {
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
             Discutons ensemble de votre idée et donnons-lui vie.
           </p>
-          <Link to="/project-form">
+          <Link href="/project-form">
             <Button className="bg-dikio-accent hover:bg-dikio-accent-light text-white px-8 rounded-full">
               Démarrer un projet
             </Button>

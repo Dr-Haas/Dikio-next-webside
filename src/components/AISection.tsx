@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Zap, Target, Bot, Database, Clock, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -42,7 +42,7 @@ const AISection = () => {
 
               <div data-gsap="fade-up">
                 <Button asChild size="lg" className="bg-dikio-subtitle hover:bg-dikio-title text-white">
-                  <Link to="/ia">
+                  <Link href="/ia">
                     Découvrir notre approche IA <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>

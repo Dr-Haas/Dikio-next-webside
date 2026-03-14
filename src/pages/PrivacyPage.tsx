@@ -1,18 +1,12 @@
+'use client';
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import SEO from '@/components/SEO';
-
 const PrivacyPage = () => {
   const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Politique de Confidentialité"
-        description="Politique de confidentialité de Dikio. Découvrez comment nous collectons, utilisons et protégeons vos données personnelles conformément au RGPD."
-        keywords="politique confidentialité, RGPD, données personnelles, protection vie privée, cookies"
-        url="https://dikio.fr/politique-confidentialite"
-      />
       <main className="container mx-auto px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8">
           <h1 className="text-3xl font-bold mb-8 text-dikio-heading">{t('privacy.title')}</h1>

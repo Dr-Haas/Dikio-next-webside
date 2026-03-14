@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Users, Target, Lightbulb, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
@@ -60,7 +62,7 @@ const About = () => {
 
               <div data-gsap="fade-up">
                 <Button asChild variant="outline" className="group border-dikio-title text-dikio-title hover:bg-dikio-title/5">
-                  <Link to="/about">
+                  <Link href="/about">
                     {t('about.learnMore')}
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>

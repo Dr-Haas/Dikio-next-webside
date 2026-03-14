@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { useLocation } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
  * Also auto-animates sections, headings, and common patterns.
  */
 export const useGSAPAnimations = () => {
-  const location = useLocation();
+  const pathname = usePathname();
   const contextRef = useRef<gsap.Context | null>(null);
 
   useEffect(() => {
@@ -172,5 +172,5 @@ export const useGSAPAnimations = () => {
         contextRef.current.revert();
       }
     };
-  }, [location.pathname]);
+  }, [pathname]);
 };

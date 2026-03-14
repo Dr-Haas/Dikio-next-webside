@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { 
   ArrowRight, 
@@ -20,8 +22,6 @@ import {
   RefreshCw
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import SEO from '@/components/SEO';
-
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
@@ -38,12 +38,6 @@ const staggerContainer = {
 const IALanding = () => {
   return (
     <div className="min-h-screen bg-white">
-      <SEO 
-        title="IA & Automatisation pour votre Business"
-        description="L'IA n'est plus une option, c'est un multiplicateur de puissance. Découvrez comment transformer votre entreprise avec l'intelligence artificielle stratégique."
-        keywords="intelligence artificielle, IA business, automatisation entreprise, transformation digitale, AI strategy, chatbot IA, productivité IA"
-        url="https://dikio.fr/ia"
-      />
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 overflow-hidden">
         <div className="container mx-auto px-4 md:px-6 text-center">
@@ -80,12 +74,12 @@ const IALanding = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <Button asChild size="lg" className="bg-dikio-subtitle hover:bg-dikio-title text-white">
-                <Link to="/project-form">
+                <Link href="/project-form">
                   Réserver un échange <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-dikio-title text-dikio-title hover:bg-dikio-title/5">
-                <Link to="/services/automation">
+                <Link href="/services/automation">
                   Découvrir nos solutions
                 </Link>
               </Button>
@@ -259,7 +253,7 @@ const IALanding = () => {
             className="text-center mt-12"
           >
             <Button asChild size="lg" className="bg-dikio-subtitle hover:bg-dikio-title text-white">
-              <Link to="/project-form">
+              <Link href="/project-form">
                 Évaluez votre potentiel IA <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -479,7 +473,7 @@ const IALanding = () => {
           >
             <p className="text-muted-foreground mb-4">Votre cas n'est pas listé ici ?</p>
             <Button asChild variant="outline" className="border-dikio-title text-dikio-title hover:bg-dikio-title/5">
-              <Link to="/contact">
+              <Link href="/contact">
                 Discutons de votre projet
               </Link>
             </Button>
@@ -603,7 +597,7 @@ const IALanding = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <Button asChild size="lg" className="bg-dikio-accent hover:bg-dikio-accent-light text-white">
-                <Link to="/project-form">
+                <Link href="/project-form">
                   Réserver un appel stratégique <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>

@@ -1,6 +1,8 @@
+'use client';
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -91,13 +93,7 @@ const Archilo = () => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      <SEO 
-        title="Archilo - IA Souveraine pour Cabinets d'Avocats | Serveur Local Sécurisé"
-        description="Archilo : serveur physique sécurisé avec IA expert installé dans votre cabinet. Automatisez recherches juridiques, veilles et synthèses. Données 100% locales, conforme RGPD et secret professionnel."
-        keywords="IA avocat, intelligence artificielle juridique, serveur local cabinet avocat, automatisation juridique, souveraineté données avocat, RGPD cabinet avocat, stagiaire IA juridique, recherche jurisprudentielle automatisée, veille juridique automatique, Mac mini avocat, black box juridique, LegalTech France, infrastructure souveraine avocat"
-        url="https://dikio.fr/archilo"
-        type="product"
-        jsonLd={{
+      <SEO jsonLd={{
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Archilo - La Black Box Juridique",
@@ -204,7 +200,7 @@ const Archilo = () => {
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-6 text-base"
                 >
-                  <Link to="/contact">
+                  <Link href="/contact">
                     Découvrir l'Offre
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
@@ -232,7 +228,7 @@ const Archilo = () => {
                 <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-3xl blur-2xl" />
                 
                 <img 
-                  src={archiloBoxTop} 
+                  src={archiloBoxTop.src} 
                   alt="ArchiloAI Black Box" 
                   className="relative w-full max-w-lg mx-auto drop-shadow-2xl"
                 />
@@ -261,7 +257,7 @@ const Archilo = () => {
             {/* Image */}
             <motion.div variants={fadeInUp} className="order-2 lg:order-1">
               <img 
-                src={archiloPackaging} 
+                src={archiloPackaging.src} 
                 alt="ArchiloAI Packaging Complet" 
                 className="w-full rounded-2xl shadow-2xl"
               />
@@ -409,7 +405,7 @@ const Archilo = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-[3rem] blur-2xl" />
                 <img 
-                  src={archiloAppInterface} 
+                  src={archiloAppInterface.src} 
                   alt="Archilo Assistant Interface" 
                   className="relative max-w-xs md:max-w-sm drop-shadow-2xl"
                 />

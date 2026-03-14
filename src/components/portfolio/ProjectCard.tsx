@@ -1,6 +1,8 @@
+'use client';
+
 
 import React, { useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowUpRight, Sparkles } from 'lucide-react';
 import gsap from 'gsap';
 
@@ -73,7 +75,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, size = 'medium', ind
     : 'text-lg md:text-xl';
 
   return (
-    <Link to={`/portfolio/${project.id}`} className="block group portfolio-card">
+    <Link href={`/portfolio/${project.id}`} className="block group portfolio-card">
       <div ref={cardRef} className={`relative overflow-hidden rounded-2xl ${aspectClass} cursor-pointer`}>
         {/* Image */}
         <img

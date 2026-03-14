@@ -1,20 +1,14 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, TrendingUp, Check, Bot, Cpu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import OtherServices from '@/components/OtherServices';
 import serviceMarketingImage from '@/assets/service-marketing.png';
-import SEO from '@/components/SEO';
-
 const Marketing = () => {
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Growth Marketing & Ads"
-        description="Boostez votre croissance avec des stratégies marketing innovantes. Google Ads, réseaux sociaux, SEO, contenu engageant. Maximisez votre ROI."
-        keywords="growth marketing, google ads, facebook ads, SEO, marketing digital, publicité en ligne, ROI, campagnes publicitaires"
-        url="https://dikio.fr/services/marketing"
-      />
       <main>
         <section className="py-16 md:py-24">
           <div className="container px-4 md:px-6">
@@ -45,14 +39,14 @@ const Marketing = () => {
                     Suivi des performances et ajustements pour un ROI maximal
                   </li>
                 </ul>
-                <Link to="/project-form">
+                <Link href="/project-form">
                   <Button className="bg-dikio-accent hover:bg-dikio-accent-light text-white">
                     Démarrer un projet <ArrowRight className="ml-2" />
                   </Button>
                 </Link>
               </div>
               <img
-                src={serviceMarketingImage}
+                src={serviceMarketingImage.src}
                 alt="Growth Marketing"
                 className="rounded-lg shadow-lg"
               />

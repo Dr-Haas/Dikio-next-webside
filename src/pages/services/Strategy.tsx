@@ -1,20 +1,14 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Briefcase, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import OtherServices from '@/components/OtherServices';
 import serviceStrategyImage from '@/assets/service-strategy.png';
-import SEO from '@/components/SEO';
-
 const Strategy = () => {
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Accompagnement Stratégique"
-        description="Structurez votre projet avec un coaching personnalisé. Définition des objectifs, parcours client, métriques de croissance. De l'idée au business viable."
-        keywords="accompagnement stratégique, coaching, business plan, stratégie digitale, croissance, startup, entrepreneuriat"
-        url="https://dikio.fr/services/strategy"
-      />
       <main>
         <section className="py-16 md:py-24">
           <div className="container px-4 md:px-6">
@@ -32,7 +26,7 @@ const Strategy = () => {
                   pour structurer et développer votre projet avec méthode.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Link to="/project-form">
+                  <Link href="/project-form">
                     <Button size="lg" className="bg-dikio-accent hover:bg-dikio-accent-light text-white font-medium">
                       Structurer votre projet
                       <ArrowRight className="ml-2 h-4 w-4" />
@@ -42,7 +36,7 @@ const Strategy = () => {
               </div>
               <div className="relative">
                 <img
-                  src={serviceStrategyImage}
+                  src={serviceStrategyImage.src}
                   alt="Accompagnement stratégique"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -96,7 +90,7 @@ const Strategy = () => {
           <div className="container px-4 md:px-6 text-center">
             <h2 className="text-3xl font-bold mb-6">Prêt à structurer votre projet ?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">Passez de l'idée à un business viable et pérenne avec un accompagnement expert.</p>
-            <Link to="/project-form">
+            <Link href="/project-form">
               <Button size="lg" className="bg-dikio-accent hover:bg-dikio-accent-light text-white font-medium">
                 Démarrer votre accompagnement stratégique
                 <ArrowRight className="ml-2 h-5 w-5" />

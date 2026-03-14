@@ -1,20 +1,14 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Palette, Check, Bot, Cpu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import OtherServices from '@/components/OtherServices';
 import serviceBrandingImage from '@/assets/service-branding.png';
-import SEO from '@/components/SEO';
-
 const Branding = () => {
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Branding & Image de marque"
-        description="Créez une identité visuelle mémorable. Logo, charte graphique, storytelling de marque. Démarquez-vous avec une image forte et cohérente."
-        keywords="branding, identité visuelle, logo, charte graphique, image de marque, design, storytelling, communication visuelle"
-        url="https://dikio.fr/services/branding"
-      />
       <main>
         <section className="py-12 md:py-24">
           <div className="container px-4 md:px-6">
@@ -40,7 +34,7 @@ const Branding = () => {
                     Supports de communication percutants
                   </li>
                 </ul>
-                <Link to="/project-form">
+                <Link href="/project-form">
                   <Button className="bg-dikio-accent hover:bg-dikio-accent-light text-white">
                     Démarrer votre projet branding <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -48,7 +42,7 @@ const Branding = () => {
               </div>
               <div className="relative">
                 <img
-                  src={serviceBrandingImage}
+                  src={serviceBrandingImage.src}
                   alt="Branding"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />

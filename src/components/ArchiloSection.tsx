@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Building2, Database, Plug, Brain } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const ArchiloSection = () => {
   const features = [
@@ -84,7 +84,7 @@ const ArchiloSection = () => {
               size="lg" 
               className="bg-dikio-accent hover:bg-dikio-accent/90 text-white font-medium"
             >
-              <Link to="/archilo">
+              <Link href="/archilo">
                 Découvrir Archilo <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>

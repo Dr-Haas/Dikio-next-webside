@@ -1,18 +1,12 @@
+'use client';
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import SEO from '@/components/SEO';
-
 const LegalPage = () => {
   const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Mentions Légales"
-        description="Mentions légales de Dikio Studio. Informations sur l'éditeur, l'hébergeur, la propriété intellectuelle et les conditions d'utilisation."
-        keywords="mentions légales, dikio, conditions utilisation, propriété intellectuelle"
-        url="https://dikio.fr/mentions-legales"
-      />
       <main className="container mx-auto px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8">
           <h1 className="text-3xl font-bold mb-8 text-dikio-heading">{t('legal.title')}</h1>

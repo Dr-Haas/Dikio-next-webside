@@ -1,20 +1,14 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, RocketIcon, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import OtherServices from '@/components/OtherServices';
 import serviceLaunchingImage from '@/assets/service-launching.png';
-import SEO from '@/components/SEO';
-
 const Launching = () => {
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Lancement Rapide de Projet"
-        description="Lancez votre projet en 4 semaines. MVP fonctionnel, validation de concept, premiers utilisateurs. Transformez votre idée en réalité rapidement."
-        keywords="lancement rapide, MVP, minimum viable product, startup, validation concept, développement rapide, projet digital"
-        url="https://dikio.fr/services/launching"
-      />
       <main>
         <section className="py-16 md:py-24">
           <div className="container px-4 md:px-6">
@@ -40,7 +34,7 @@ const Launching = () => {
                     Attraction de vos premiers utilisateurs
                   </li>
                 </ul>
-                <Link to="/project-form">
+                <Link href="/project-form">
                   <Button className="bg-dikio-accent hover:bg-dikio-accent-light text-white">
                     Démarrer votre projet
                   </Button>
@@ -48,7 +42,7 @@ const Launching = () => {
               </div>
               <div className="relative">
                 <img
-                  src={serviceLaunchingImage}
+                  src={serviceLaunchingImage.src}
                   alt="Lancement rapide"
                   className="rounded-lg shadow-lg"
                 />

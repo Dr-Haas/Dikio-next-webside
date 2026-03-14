@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase } from '@/integrations/supabase/client';
@@ -10,7 +12,6 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
-import SEO from '@/components/SEO';
 
 // ─── Types ───────────────────────────────────────────────────────
 interface FormData {
@@ -240,7 +241,6 @@ const LegalOpsForm = () => {
   if (submitted) {
     return (
       <div className="min-h-screen bg-dikio-background flex items-center justify-center px-4">
-        <SEO title="Demande envoyée | Audit LegalOps" url="https://dikio.fr/legalops/demande" />
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -486,12 +486,6 @@ const LegalOpsForm = () => {
 
   return (
     <div className="min-h-screen bg-dikio-background relative overflow-hidden">
-      <SEO
-        title="Demander un audit LegalOps | Dikio"
-        description="Répondez à quelques questions pour recevoir un diagnostic personnalisé de vos opérations."
-        url="https://dikio.fr/legalops/demande"
-      />
-
       {/* Subtle glow */}
       <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-dikio-title/5 rounded-full blur-[120px] pointer-events-none" />
 

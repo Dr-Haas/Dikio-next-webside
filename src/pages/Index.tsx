@@ -1,4 +1,9 @@
+'use client';
+
+'use client';
+
 import React from 'react';
+import dynamic from 'next/dynamic';
 import SEO from '@/components/SEO';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
@@ -6,8 +11,12 @@ import AISection from '@/components/AISection';
 import ArchiloSection from '@/components/ArchiloSection';
 import About from '@/components/About';
 import Contact from '@/components/Contact';
-import ProjectsCarousel from '@/components/about/ProjectsCarousel';
 import CaisseMedicaleSection from '@/components/CaisseMedicaleSection';
+
+const ProjectsCarousel = dynamic(
+  () => import('@/components/about/ProjectsCarousel'),
+  { ssr: false }
+);
 
 const Index = () => {
   const servicesSchema = {
@@ -29,10 +38,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        url="https://dikio.fr"
-        jsonLd={servicesSchema}
-      />
+      <SEO jsonLd={servicesSchema} />
       <main>
         <Hero />
         <Services />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -25,7 +25,7 @@ const AboutCTA = () => {
           Parlons de vos processus, de vos pertes silencieuses, et de ce que l'IA peut réellement changer dans votre organisation.
         </p>
         <div data-gsap="fade-up">
-          <Link to="/project-form">
+          <Link href="/project-form">
             <Button
               size="lg"
               className="bg-white text-dikio-title hover:bg-white/90 font-semibold text-base px-8"

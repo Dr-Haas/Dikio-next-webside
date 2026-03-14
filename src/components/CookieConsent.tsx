@@ -1,6 +1,8 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { X, Cookie } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -92,7 +94,7 @@ const CookieConsent = () => {
                 </div>
                 <p className="text-xs text-gray-500 mt-3">
                   {t('cookies.learnMore')}{' '}
-                  <Link to="/politique-confidentialite" className="text-dikio-accent hover:underline">
+                  <Link href="/politique-confidentialite" className="text-dikio-accent hover:underline">
                     {t('cookies.privacyPolicy')}
                   </Link>
                 </p>

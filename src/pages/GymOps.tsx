@@ -1,9 +1,10 @@
+'use client';
+
 import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
-import SEO from '@/components/SEO';
 import {
   Accordion,
   AccordionContent,
@@ -241,13 +242,6 @@ const GymOps = () => {
 
   return (
     <div ref={heroRef} style={{ backgroundColor: '#0A0A0A', color: '#FAFAFA' }} className="min-h-screen font-sans">
-      <SEO
-        title="GymOps | Indépendance digitale pour salles de fitness"
-        description="Arrêtez de payer 7 SaaS. On construit vos propres outils : booking, CRM, automatisation IA. Tout vous appartient. Pour les gérants de salles indépendants."
-        keywords="outils salle de sport, indépendance digitale fitness, alternative mindbody, CRM gym sur mesure, automatisation salle de sport"
-        url="https://dikio.fr/gym-ops"
-      />
-
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-20">
         <div
@@ -309,7 +303,7 @@ const GymOps = () => {
 
             <div className="gymops-ctas flex flex-wrap gap-4 mb-16">
               <Link
-                to="/contact"
+                href="/contact"
                 className="inline-flex items-center gap-2 px-7 py-4 rounded-full font-semibold transition-all duration-300"
                 style={{ backgroundColor: '#F97316', color: '#0A0A0A' }}
                 onMouseEnter={e => (e.currentTarget.style.backgroundColor = '#ea6a0a')}
@@ -538,7 +532,7 @@ const GymOps = () => {
                     </li>
                   ))}
                 </ul>
-                <Link to="/project-form"
+                <Link href="/project-form"
                   className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300"
                   style={o.highlight
                     ? { backgroundColor: '#F97316', color: '#0A0A0A' }
@@ -615,7 +609,7 @@ const GymOps = () => {
             <p className="mb-10 max-w-xl mx-auto text-lg" style={{ color: '#9CA3AF' }}>
               30 minutes pour auditer votre stack actuel et voir ce qu'on peut construire ensemble. Sans engagement.
             </p>
-            <Link to="/contact"
+            <Link href="/contact"
               className="inline-flex items-center gap-2 px-8 py-5 rounded-full font-bold text-lg transition-all duration-300"
               style={{ backgroundColor: '#F97316', color: '#0A0A0A' }}
               onMouseEnter={e => (e.currentTarget.style.backgroundColor = '#ea6a0a')}

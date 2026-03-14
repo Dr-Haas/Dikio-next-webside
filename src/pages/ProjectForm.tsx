@@ -1,7 +1,8 @@
+'use client';
+
 import React, { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import SEO from '@/components/SEO';
 import LeadChatbot from '@/components/lead-chat/LeadChatbot';
 import BriefSummaryPanel from '@/components/lead-chat/BriefSummaryPanel';
 import SubmitBriefDialog from '@/components/lead-chat/SubmitBriefDialog';
@@ -46,12 +47,6 @@ const ProjectForm = () => {
 
   return (
     <div className="min-h-screen bg-dikio-background">
-      <SEO 
-        title="Démarrer votre projet"
-        description="Discutez avec Léa, notre assistante IA, pour définir votre projet. En quelques minutes, obtenez un brief personnalisé et démarrez votre collaboration avec Dikio."
-        keywords="démarrer projet, brief projet, chatbot IA, consultation gratuite, dikio"
-        url="https://dikio.fr/project-form"
-      />
       <main className="container mx-auto px-4 py-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

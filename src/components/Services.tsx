@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
 import { Rocket, Palette, Bot, Megaphone, Briefcase, ArrowRight, Scale, Stethoscope } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
 const Services = () => {
@@ -103,7 +105,7 @@ const Services = () => {
               <h3 className="text-xl font-semibold text-dikio-paragraph mb-3">{t(service.titleKey)}</h3>
               <p className="text-muted-foreground mb-6">{t(service.descriptionKey)}</p>
               <Link 
-                to={service.link}
+                href={service.link}
                 className={`inline-flex items-center text-sm font-medium transition-colors ${
                   service.highlight ? 'text-dikio-subtitle hover:text-dikio-title' : 'text-dikio-accent hover:text-dikio-accent-light'
                 }`}
@@ -119,7 +121,7 @@ const Services = () => {
           className="text-center mt-12"
         >
           <Button asChild size="lg" variant="outline" className="border-dikio-title text-dikio-title hover:bg-dikio-title/5">
-            <Link to="/services">
+            <Link href="/services">
               {t('services.viewAll')} <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
