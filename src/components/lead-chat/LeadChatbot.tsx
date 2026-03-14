@@ -13,7 +13,10 @@ type Message = {
   content: string;
 };
 
-const CHAT_URL = `${process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://apbrupkcxsbrdbzyaspt.supabase.co'}/functions/v1/lead-chat`;
+// Compatible intégration Vercel–Supabase : PUBLISHABLE_KEY = anon key
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://apbrupkcxsbrdbzyaspt.supabase.co';
+const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwYnJ1cGtjeHNicmRienlhc3B0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc4NzM2NDEsImV4cCI6MjA4MzQ0OTY0MX0.rvr_O8Fe48yjU06346s7bN0O5CiOIGBBRIahei_9z2Y';
+const CHAT_URL = `${SUPABASE_URL}/functions/v1/lead-chat`;
 
 interface LeadChatbotProps {
   onBriefGenerated?: (brief: any) => void;
@@ -85,7 +88,7 @@ const LeadChatbot = ({
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''}`,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
         },
         body: JSON.stringify({ messages: updatedMessages }),
       });
@@ -149,7 +152,9 @@ const LeadChatbot = ({
       }
     } catch (error) {
       console.error('Chat error:', error);
-      toast.error(error instanceof Error ? error.message : 'Une erreur est survenue');
+      const message = error instanceof Error ? error.message : 'Une erreur est survenue';
+      const isNetworkError = message === 'Failed to fetch' || message.includes('NetworkError');
+      toast.error(isNetworkError ? 'Connexion impossible. Vérifiez votre réseau ou réessayez plus tard.' : message);
       // Remove the user message if failed
       setMessages(messages);
     } finally {

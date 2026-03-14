@@ -11,15 +11,21 @@ export const metadata: Metadata = {
 };
 
 export default async function PortfolioPage() {
-  const { data } = await supabase
-    .from('portfolio_projects' as any)
-    .select('id, title, description, image_url, category, tags, devices, year')
-    .eq('is_published', true)
-    .order('display_order', { ascending: true });
+  let projects: ProjectData[] = fallbackProjects;
 
-  const projects: ProjectData[] = data && data.length > 0
-    ? (data as unknown as ProjectData[])
-    : fallbackProjects;
+  try {
+    const { data, error } = await supabase
+      .from('portfolio_projects' as any)
+      .select('id, title, description, image_url, category, tags, devices, year')
+      .eq('is_published', true)
+      .order('display_order', { ascending: true });
+
+    if (!error && data && data.length > 0) {
+      projects = data as unknown as ProjectData[];
+    }
+  } catch (_e) {
+    // En production (Vercel), réseau ou Supabase peut échouer : on affiche le fallback
+  }
 
   return <Portfolio initialProjects={projects} />;
 }

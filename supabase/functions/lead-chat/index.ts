@@ -1,9 +1,23 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
-};
+// Origines autorisées (prod + dev + previews Vercel)
+const ALLOWED_ORIGINS = [
+  'https://www.dikio.fr',
+  'https://dikio.fr',
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+];
+
+function getCorsHeaders(req: Request): Record<string, string> {
+  const origin = req.headers.get('origin') || '';
+  const isAllowed = ALLOWED_ORIGINS.includes(origin) || origin.endsWith('.vercel.app');
+  const allowOrigin = isAllowed ? origin : 'https://www.dikio.fr';
+  return {
+    'Access-Control-Allow-Origin': allowOrigin,
+    'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  };
+}
 
 // Simple in-memory rate limiting (resets on function cold start)
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
@@ -207,6 +221,7 @@ Après le JSON, ajoute :
 ❌ Dépasser 10 échanges avant de proposer le brief`;
 
 serve(async (req) => {
+  const corsHeaders = getCorsHeaders(req);
   // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: corsHeaders });
@@ -223,7 +238,7 @@ serve(async (req) => {
         JSON.stringify({ error: 'Trop de requêtes. Veuillez réessayer dans une heure.' }), 
         {
           status: 429,
-          headers: { 
+          headers: {
             ...corsHeaders, 
             'Content-Type': 'application/json',
             'X-RateLimit-Remaining': '0',
